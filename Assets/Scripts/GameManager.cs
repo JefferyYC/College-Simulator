@@ -7,11 +7,11 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
     public static GameManager gameManager;
-    public float industry;
-	public float academic;
-	public float social;
-	public float health;
-	public float stress;
+    public int industry;
+	public int academic;
+	public int social;
+	public int health;
+	public int stress;
 
 	public GameObject industryObject;
     private TextMeshProUGUI industryText;
