@@ -480,3 +480,112 @@ System memory in use after: 136.9 MB.
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4042.
 Total: 2.089200 ms (FindLiveObjects: 0.260600 ms CreateObjectMapping: 0.168300 ms MarkObjects: 1.573400 ms  DeleteObjects: 0.086300 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 9921.109308 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(4f0fabd72b2519949ad5886311683050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(4f0fabd72b2519949ad5886311683050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236c61ffcc123b8a70c3f5a803716ea2') in 0.013648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1069.627190 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(e83b3454d4a29b74c9dd551e6046d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(e83b3454d4a29b74c9dd551e6046d2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6eb99d85d14cee6fc26f96d43d82c04') in 0.008086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.058140 seconds.
+  path: Assets/Prefabs/TaskCard1.prefab
+  artifactKey: Guid(a8dea527ed8a6c54880126f507a38e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TaskCard1.prefab using Guid(a8dea527ed8a6c54880126f507a38e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6baaac3da316c068ab4331b061334d') in 0.096975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.357017 seconds.
+  path: Assets/Prefabs/EmptyTask.prefab
+  artifactKey: Guid(0908c3072adc9d043baed8c4e2f17513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EmptyTask.prefab using Guid(0908c3072adc9d043baed8c4e2f17513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376d82dc32d9090e588c515489f8de4e') in 0.007752 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004402 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.083 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3401 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.8 MB.
+System memory in use after: 136.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4046.
+Total: 2.430000 ms (FindLiveObjects: 0.319200 ms CreateObjectMapping: 0.220100 ms MarkObjects: 1.785200 ms  DeleteObjects: 0.104600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 349.912784 seconds.
+  path: Assets/Scripts/TasksParent.cs
+  artifactKey: Guid(43b8ef7655ca5364d8f9c8efae29d44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TasksParent.cs using Guid(43b8ef7655ca5364d8f9c8efae29d44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bbbdeddf9efbc4632beb578c82de1a') in 0.011378 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002580 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.854 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.9 MB.
+System memory in use after: 137.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4051.
+Total: 2.384400 ms (FindLiveObjects: 0.253000 ms CreateObjectMapping: 0.142400 ms MarkObjects: 1.862200 ms  DeleteObjects: 0.126300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 165.742619 seconds.
+  path: Assets/Scripts/TasksParent.cs
+  artifactKey: Guid(43b8ef7655ca5364d8f9c8efae29d44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TasksParent.cs using Guid(43b8ef7655ca5364d8f9c8efae29d44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b511a0870d9df2c04aa127096fd2e4') in 0.008068 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002845 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.280 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3402 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.9 MB.
+System memory in use after: 137.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4055.
+Total: 2.408000 ms (FindLiveObjects: 0.265200 ms CreateObjectMapping: 0.204200 ms MarkObjects: 1.847400 ms  DeleteObjects: 0.090500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.628350 seconds.
+  path: Assets/Scripts/TasksParent.cs
+  artifactKey: Guid(43b8ef7655ca5364d8f9c8efae29d44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TasksParent.cs using Guid(43b8ef7655ca5364d8f9c8efae29d44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9781e70bdd33d3a2629508836ad212') in 0.005704 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
