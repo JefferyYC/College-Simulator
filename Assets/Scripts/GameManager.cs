@@ -6,15 +6,15 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager gameManager;
-    public int industry;
+  public static GameManager gameManager;
+  public int industry;
 	public int academic;
 	public int social;
 	public int health;
 	public int stress;
 
 	public GameObject industryObject;
-    private TextMeshProUGUI industryText;
+  private TextMeshProUGUI industryText;
 
 	public GameObject academicObject;
 	private TextMeshProUGUI academicText;
