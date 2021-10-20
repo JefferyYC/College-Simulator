@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 118748239}
   - component: {fileID: 118748238}
   m_Layer: 5
-  m_Name: SchedulePannel
+  m_Name: TaskPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -877,7 +877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4574dea88df3e744a1fcc5f4d3d54a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TasksPanel: {fileID: 576639966}
+  TasksPanel: {fileID: 118748236}
   Taskcard: {fileID: 1130607942698997338, guid: dd1e49555d4457a4db50e550173914fc, type: 3}
 --- !u!1 &543810286 stripped
 GameObject:
@@ -2848,7 +2848,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 995b7913bbe67d849b3e0782ee141a39, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6d8c622aa1407074981a5090c2eb13a0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
