@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6972351117502070023}
   - component: {fileID: 6402347607117779215}
   - component: {fileID: 6881496865668740128}
+  - component: {fileID: -1288293231907681593}
   m_Layer: 5
   m_Name: Nap
   m_TagString: Untagged
@@ -76,6 +77,23 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &-1288293231907681593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642595701835963941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43b8ef7655ca5364d8f9c8efae29d44e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  industry: 0
+  academic: 0
+  social: 0
+  health: 10
+  stress: -10
 --- !u!1 &5392088032896498698
 GameObject:
   m_ObjectHideFlags: 0

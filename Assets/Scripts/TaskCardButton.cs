@@ -19,8 +19,10 @@ public class TaskCardButton : MonoBehaviour
       {
         schedulelayout.taskcount = 1;
       }
-      GameObject oldtask = schedulelayout.findEmpty(schedulelayout.taskcount);
+
+      GameObject oldtask = schedulelayout.scheduledTasks[schedulelayout.taskcount - 1];
       GameObject newtask = GameObject.Instantiate(Taskcard) as GameObject;
+      schedulelayout.scheduledTasks[schedulelayout.taskcount-1] = newtask;
 
       newtask.transform.parent = oldtask.transform.parent;
       newtask.transform.rotation = oldtask.transform.rotation;

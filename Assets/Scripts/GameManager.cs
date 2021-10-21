@@ -6,15 +6,15 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-  public static GameManager gameManager;
-  public int industry;
+    public static GameManager gameManager;
+    public int industry;
 	public int academic;
 	public int social;
 	public int health;
 	public int stress;
 
 	public GameObject industryObject;
-  private TextMeshProUGUI industryText;
+    private TextMeshProUGUI industryText;
 
 	public GameObject academicObject;
 	private TextMeshProUGUI academicText;
@@ -40,7 +40,6 @@ public class GameManager : MonoBehaviour
 		UpdateUI();
 	}
 
-	// Update is called once per frame
 	void UpdateUI()
 	{
 		industryText.text = "Industry: " + industry.ToString();
@@ -49,4 +48,10 @@ public class GameManager : MonoBehaviour
 		healthText.text = "Health: " + health.ToString();
 		stressText.text = "Stress: " + stress.ToString();
 	}
+
+	// Update is called once per frame
+	void Update()
+    {
+		UpdateUI();
+    }
 }
