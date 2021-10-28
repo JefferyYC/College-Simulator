@@ -13,6 +13,10 @@ public class GameManager : MonoBehaviour
 	public int health;
 	public int stress;
 
+	public int turn = 1;
+	public GameObject turnTextObject;
+	private Text turnText;
+
 	public GameObject industryObject;
     private TextMeshProUGUI industryText;
 
@@ -37,6 +41,7 @@ public class GameManager : MonoBehaviour
 		socialText = socialObject.GetComponent<TextMeshProUGUI>();
 		healthText = healthObject.GetComponent<TextMeshProUGUI>();
 		stressText = stressObject.GetComponent<TextMeshProUGUI>();
+		turnText = turnTextObject.GetComponent<Text>();
 		UpdateUI();
 	}
 
@@ -47,6 +52,7 @@ public class GameManager : MonoBehaviour
 		socialText.text = "Social: " + social.ToString();
 		healthText.text = "Health: " + health.ToString();
 		stressText.text = "Stress: " + stress.ToString();
+		turnText.text = "Turn: " + turn.ToString();
 	}
 
 	// Update is called once per frame

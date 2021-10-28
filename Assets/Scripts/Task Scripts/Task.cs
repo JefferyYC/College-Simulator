@@ -10,4 +10,5 @@ public class Task: MonoBehaviour
     public int social;
     public int health;
     public int stress;
+    public string description;
 }

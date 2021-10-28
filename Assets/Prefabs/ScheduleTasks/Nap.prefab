@@ -94,6 +94,7 @@ MonoBehaviour:
   social: 0
   health: 10
   stress: -10
+  description: Took a nap and forgot about hw
 --- !u!1 &5392088032896498698
 GameObject:
   m_ObjectHideFlags: 0

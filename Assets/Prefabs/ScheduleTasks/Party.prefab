@@ -94,6 +94,7 @@ MonoBehaviour:
   social: 20
   health: 0
   stress: -10
+  description: Partied all night....
 --- !u!1 &5392088032896498698
 GameObject:
   m_ObjectHideFlags: 0

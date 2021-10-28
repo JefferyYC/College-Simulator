@@ -94,6 +94,7 @@ MonoBehaviour:
   social: 10
   health: 0
   stress: -10
+  description: Met with a strange person today
 --- !u!1 &6030212728044729461
 GameObject:
   m_ObjectHideFlags: 0

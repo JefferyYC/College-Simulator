@@ -94,6 +94,7 @@ MonoBehaviour:
   social: -5
   health: 0
   stress: 20
+  description: Studied 10 min before exam
 --- !u!1 &5392088032896498698
 GameObject:
   m_ObjectHideFlags: 0

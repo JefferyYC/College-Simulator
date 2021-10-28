@@ -94,6 +94,7 @@ MonoBehaviour:
   social: 0
   health: 30
   stress: 0
+  description: Took a lot of selfies at gym
 --- !u!1 &5392088032896498698
 GameObject:
   m_ObjectHideFlags: 0
