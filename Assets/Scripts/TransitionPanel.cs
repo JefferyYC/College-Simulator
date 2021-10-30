@@ -11,6 +11,8 @@ public class TransitionPanel : MonoBehaviour
     Text description;
     int taskPointer;
     Task curTask;
+    public GameObject emptyTask;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +37,9 @@ public class TransitionPanel : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            GameObject oldtask = scheduledTasks[taskPointer];
+            GameObject newtask = GameObject.Instantiate(emptyTask) as GameObject;
+            scheduledTasks[taskPointer] = newtask;
             taskPointer += 1;
             if (taskPointer >= scheduledTasks.Count)
             {
@@ -52,6 +57,12 @@ public class TransitionPanel : MonoBehaviour
                 gmScript.health += curTask.health;
                 gmScript.stress += curTask.stress;
             }
+            newtask.transform.parent = oldtask.transform.parent;
+            newtask.transform.rotation = oldtask.transform.rotation;
+            newtask.transform.position = oldtask.transform.position;
+            newtask.transform.localScale = oldtask.transform.localScale;
+            newtask.transform.name = "EmptyTask" + taskPointer;
+            Destroy(oldtask);
         }
     }
 }

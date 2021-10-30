@@ -14,3 +14,7 @@
 - TODO:
 	1. After each turn, we need to refill the list with empty task cards.
 	2. With turn system in place, we can now program the feature where new tasks are added into schedule.
+
+  2021/10/29: By Junkee
+- Added the feature where the schedule starts empty with every new turn.
+- For new tasks added into the schedule, a baseframe has to be created first, will work on it this weekend.

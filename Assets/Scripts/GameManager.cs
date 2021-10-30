@@ -6,8 +6,8 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager gameManager;
-    public int industry;
+  public static GameManager gameManager;
+  public int industry;
 	public int academic;
 	public int social;
 	public int health;
