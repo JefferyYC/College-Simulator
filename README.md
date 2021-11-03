@@ -18,3 +18,12 @@
   2021/10/29: By Junkee
 - Added the feature where the schedule starts empty with every new turn.
 - For new tasks added into the schedule, a baseframe has to be created first, will work on it this weekend.
+
+2021/11/3: by Alan
+- Connect transition animation after act button
+- Build and smoothen the entire gameplay process skeleton.
+   - games now has a complete game play from start to finish
+   - just need to furnish individual parts
+
+To-Do:
+1. Do the ending based on points. Should be ez. But need to discuss roles vs points.

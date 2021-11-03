@@ -8,14 +8,9 @@ public class LevelLoader : MonoBehaviour
     public Animator transition;
 
     public float transitionTime = 1f;
+
+    GameManager gmScript;
     
-    void Update()
-    {
-        if(Input.GetMouseButtonDown(0))
-        {
-            LoadNextLevel();
-        }
-    }
 
     public void LoadNextLevel()
     {
@@ -25,10 +20,15 @@ public class LevelLoader : MonoBehaviour
     IEnumerator LoadLevel(int levelIndex)
     {
         //Play animation
+
         transition.SetTrigger("Start");
+        GameObject gm = GameObject.Find("GameManager");
+        gmScript = gm.GetComponent<GameManager>();
         //Wait
         yield return new WaitForSeconds(transitionTime);
         //Load Scene
+        gmScript.semesterNum += 1;
         SceneManager.LoadScene(levelIndex);
+        Debug.Log("1111111111");
     }
 }

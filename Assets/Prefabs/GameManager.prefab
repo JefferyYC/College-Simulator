@@ -48,8 +48,18 @@ MonoBehaviour:
   social: 0
   health: 100
   stress: 0
-  industryObject: {fileID: 0}
-  academicObject: {fileID: 0}
-  socialObject: {fileID: 0}
-  healthObject: {fileID: 0}
-  stressObject: {fileID: 0}
+  turn: 1
+  turnTextObject: {fileID: 7589163020579090352, guid: 58e512f6d4e54284bb2cd663518bdb33, type: 3}
+  semesterNum: 0
+  semesters:
+  - Freshmen
+  - Sophmore
+  - Junior
+  - Senior
+  - Graduated
+  semesterTextObject: {fileID: 5930789243990322902, guid: df56782b036e8874386a967fdf5d10b3, type: 3}
+  industryObject: {fileID: 8805993954872776536, guid: 2a145066c159a014f87962173fd16265, type: 3}
+  academicObject: {fileID: 3936785899694834787, guid: 16b6c29df93927340ba1ee67e8e861d9, type: 3}
+  socialObject: {fileID: 713556780249072504, guid: bf8962dd4fcf43645b09484bf404da51, type: 3}
+  healthObject: {fileID: 5145464397143927188, guid: a9f81cba6b37ce6438a39a247c1320ed, type: 3}
+  stressObject: {fileID: 7457978610487109008, guid: ecade0bbe58930a4b86acb18c4e7db86, type: 3}

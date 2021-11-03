@@ -12,6 +12,7 @@ public class TransitionPanel : MonoBehaviour
     int taskPointer;
     Task curTask;
     public GameObject emptyTask;
+    public LevelLoader levelManager;
 
     // Start is called before the first frame update
     void Start()
@@ -21,20 +22,27 @@ public class TransitionPanel : MonoBehaviour
         GameObject gm = GameObject.Find("GameManager");
         gmScript = gm.GetComponent<GameManager>();
 
+
+        if (levelManager != null)
+        {
+            Debug.Log("It is not null");
+        }
+
         description = GetComponentInChildren<Text>();
 
         taskPointer = 0;
 
         curTask = scheduledTasks[taskPointer].GetComponent<Task>();
 
-
         description.text = curTask.description;
-
     }
 
     // Update is called once per frame
     void Update()
     {
+        //if 4 turns, goes to next scene
+        
+
         if (Input.GetMouseButtonDown(0))
         {
             GameObject oldtask = scheduledTasks[taskPointer];
@@ -46,6 +54,15 @@ public class TransitionPanel : MonoBehaviour
                 Panel.SetActive(false);
                 gmScript.turn += 1;
                 taskPointer = 0;
+                if (gmScript.turn > 2)
+                {
+                    oldtask = scheduledTasks[taskPointer];
+                    newtask = GameObject.Instantiate(emptyTask) as GameObject;
+                    scheduledTasks[taskPointer] = newtask;
+                    gmScript.turn = 1;
+                    
+                    levelManager.LoadNextLevel();
+                }
             }
             else
             {

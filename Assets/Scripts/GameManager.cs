@@ -6,8 +6,8 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-  public static GameManager gameManager;
-  public int industry;
+	public static GameManager gameManager;
+	public int industry;
 	public int academic;
 	public int social;
 	public int health;
@@ -16,6 +16,11 @@ public class GameManager : MonoBehaviour
 	public int turn = 1;
 	public GameObject turnTextObject;
 	private Text turnText;
+
+	public int semesterNum = 0;
+	public string[] semesters = { "Freshmen", "Sophmore", "Junior", "Senior", "Graduated" };
+	public GameObject semesterTextObject;
+	private Text semesterText;
 
 	public GameObject industryObject;
     private TextMeshProUGUI industryText;
@@ -42,17 +47,21 @@ public class GameManager : MonoBehaviour
 		healthText = healthObject.GetComponent<TextMeshProUGUI>();
 		stressText = stressObject.GetComponent<TextMeshProUGUI>();
 		turnText = turnTextObject.GetComponent<Text>();
+		semesterText = semesterTextObject.GetComponent<Text>();
 		UpdateUI();
 	}
 
 	void UpdateUI()
 	{
+		Debug.Log(turn);
+		Debug.Log(turnText.text);
 		industryText.text = "Industry: " + industry.ToString();
 		academicText.text = "Academic: " + academic.ToString();
 		socialText.text = "Social: " + social.ToString();
 		healthText.text = "Health: " + health.ToString();
 		stressText.text = "Stress: " + stress.ToString();
 		turnText.text = "Turn: " + turn.ToString();
+		semesterText.text = "Year: " + semesters[semesterNum];
 	}
 
 	// Update is called once per frame
