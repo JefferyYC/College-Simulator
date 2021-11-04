@@ -11,4 +11,5 @@ public class Task: MonoBehaviour
     public int health;
     public int stress;
     public string description;
+    public Sprite taskImage;
 }

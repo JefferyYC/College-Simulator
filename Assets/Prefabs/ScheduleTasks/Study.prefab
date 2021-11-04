@@ -95,6 +95,7 @@ MonoBehaviour:
   health: 0
   stress: 20
   description: Studied 10 min before exam
+  taskImage: {fileID: 21300000, guid: 60487f3f271c6cd488d423e069a6823c, type: 3}
 --- !u!1 &5392088032896498698
 GameObject:
   m_ObjectHideFlags: 0

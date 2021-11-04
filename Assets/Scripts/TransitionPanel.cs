@@ -12,6 +12,7 @@ public class TransitionPanel : MonoBehaviour
     ScheduleLayout scheduleLayout;
     GameManager gmScript;
     Text description;
+    Image taskImage;
     int taskPointer;
     Task curTask;
 
@@ -32,11 +33,16 @@ public class TransitionPanel : MonoBehaviour
 
         description = GetComponentInChildren<Text>();
 
+        taskImage = transform.GetChild(0).GetComponent<Image>();
+
         taskPointer = 0;
 
         curTask = scheduledTasks[taskPointer].GetComponent<Task>();
 
         description.text = curTask.description;
+
+        taskImage.sprite = curTask.taskImage;
+
     }
 
 
@@ -45,6 +51,7 @@ public class TransitionPanel : MonoBehaviour
         // Initialize the transition scene with the first task on each new turn
         curTask = scheduledTasks[taskPointer].GetComponent<Task>();
         description.text = curTask.description;
+        taskImage.sprite = curTask.taskImage;
     }
 
     // Update is called once per frame
@@ -64,6 +71,7 @@ public class TransitionPanel : MonoBehaviour
 
             curTask = oldtask.GetComponent<Task>();
             description.text = curTask.description;
+            taskImage.sprite = curTask.taskImage;
             gmScript.industry += curTask.industry;
             gmScript.academic += curTask.academic;
             gmScript.social += curTask.social;
@@ -95,6 +103,7 @@ public class TransitionPanel : MonoBehaviour
             {
                 Task nextTask = scheduledTasks[taskPointer].GetComponent<Task>();
                 description.text = nextTask.description;
+                taskImage.sprite = nextTask.taskImage;
             }
 
             newtask.transform.parent = oldtask.transform.parent;

@@ -95,6 +95,7 @@ MonoBehaviour:
   health: 0
   stress: -20
   description: Reached Gold in LOL
+  taskImage: {fileID: 21300000, guid: 153da0a97aae56e41a7a7da56b2c0fc6, type: 3}
 --- !u!1 &5392088032896498698
 GameObject:
   m_ObjectHideFlags: 0

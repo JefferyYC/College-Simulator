@@ -34,5 +34,7 @@ To-Do:
 	- In every turn the last scheduled task's attribute points are not added
 	- At end of turn X where semester transition happens, the turn number changes to X+1 before the semester changes
 
+- Add dynamically updated pictures for each task in transition panel (note: party task currently has no image, not a bug)
+
 - Remaining Bug:
 	At every semester the player's attribute is reset to 0. Reason is GameManager script is reset in a new scene....
