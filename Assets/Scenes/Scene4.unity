@@ -182,6 +182,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelLoader
       objectReference: {fileID: 0}
+    - target: {fileID: 80310997751677521, guid: 76e8c92bf7e5c34489eddb7caadaacdd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76e8c92bf7e5c34489eddb7caadaacdd, type: 3}
 --- !u!114 &229222686 stripped
@@ -437,6 +441,26 @@ PrefabInstance:
       value: 'Year: Senior
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149118029505181638, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149118029505181638, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149118029505181638, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149118029505181638, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -45.595337
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790625928745371237, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -78
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}

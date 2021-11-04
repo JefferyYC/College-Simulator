@@ -651,6 +651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1149118027783530968, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.0000038146973
+      objectReference: {fileID: 0}
     - target: {fileID: 1149118028179823903, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -684,20 +688,32 @@ PrefabInstance:
       value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 1149118029505181638, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149118029505181638, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149118029505181638, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149118029505181638, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 451.2758
+      value: 439.7474
       objectReference: {fileID: 0}
     - target: {fileID: 1149118029505181638, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 233.6853
+      value: 93.048004
       objectReference: {fileID: 0}
     - target: {fileID: 1149118029505181638, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 17
+      value: 19.999985
       objectReference: {fileID: 0}
     - target: {fileID: 1149118029505181638, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 199
+      value: -47.205994
       objectReference: {fileID: 0}
     - target: {fileID: 1149118029716289604, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_IsActive

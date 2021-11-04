@@ -27,3 +27,12 @@
 
 To-Do:
 1. Do the ending based on points. Should be ez. But need to discuss roles vs points.
+
+2021/11/3: By Jeffery
+- Fix Following Bugs:
+	- In a new turn, the tasks selected are not added into the first row of the schedule
+	- In every turn the last scheduled task's attribute points are not added
+	- At end of turn X where semester transition happens, the turn number changes to X+1 before the semester changes
+
+- Remaining Bug:
+	At every semester the player's attribute is reset to 0. Reason is GameManager script is reset in a new scene....

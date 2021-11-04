@@ -391,6 +391,26 @@ PrefabInstance:
       propertyPath: m_Text
       value: 'Year: Sophomore'
       objectReference: {fileID: 0}
+    - target: {fileID: 1149118029505181638, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149118029505181638, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149118029505181638, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149118029505181638, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -49.595367
+      objectReference: {fileID: 0}
+    - target: {fileID: 3790625928745371237, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -82
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
 --- !u!1 &1515334154 stripped

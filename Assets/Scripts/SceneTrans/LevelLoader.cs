@@ -29,6 +29,6 @@ public class LevelLoader : MonoBehaviour
         //Load Scene
         gmScript.semesterNum += 1;
         SceneManager.LoadScene(levelIndex);
-        Debug.Log("1111111111");
+        //Debug.Log("1111111111");
     }
 }

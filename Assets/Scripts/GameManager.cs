@@ -40,6 +40,7 @@ public class GameManager : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
+		//Debug.Log("hello");
 		gameManager = this;
 		industryText = industryObject.GetComponent<TextMeshProUGUI>();
 		academicText = academicObject.GetComponent<TextMeshProUGUI>();
@@ -53,8 +54,8 @@ public class GameManager : MonoBehaviour
 
 	void UpdateUI()
 	{
-		Debug.Log(turn);
-		Debug.Log(turnText.text);
+		//Debug.Log(turn);
+		//Debug.Log(turnText.text);
 		industryText.text = "Industry: " + industry.ToString();
 		academicText.text = "Academic: " + academic.ToString();
 		socialText.text = "Social: " + social.ToString();
