@@ -38,3 +38,9 @@ To-Do:
 
 - Remaining Bug:
 	At every semester the player's attribute is reset to 0. Reason is GameManager script is reset in a new scene....
+
+2021/11/11: By Jeffery
+- Remade UI components for task panel, supporting a scrollable view of tasks in grid layout format.
+- Reprogrammed task initialization. Now we could initialize and add task buttons to the list of tasks in the task panel through code!
+	- Steps to do this: create task card prefab and assign it a tag, add task card prefab under game manager, change the script TaskOptionsControl
+- Remaining issue: this feature only available for the first scene.
