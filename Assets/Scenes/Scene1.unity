@@ -250,11 +250,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1149118028763734763, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
   m_PrefabInstance: {fileID: 1149118027801501077}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1409646789 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1149118029505181639, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
-  m_PrefabInstance: {fileID: 1149118027801501077}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1840051522 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1149118029237840087, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
@@ -344,6 +339,26 @@ PrefabInstance:
     - target: {fileID: 753203576677924711, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_HorizontalFit
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082950514398677152, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082950514398677152, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 333.8605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082950514398677152, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 41.5907
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082950514398677152, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082950514398677152, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -45.7953
       objectReference: {fileID: 0}
     - target: {fileID: 1149118027609126725, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_AnchorMax.y
@@ -969,6 +984,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6297053390308620469, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297053390308620469, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297053390308620469, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6297053390308620469, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6540065682930462666, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1065,6 +1096,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: TaskCardButton, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 8791117617020519259, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
 --- !u!1 &1149118027801501078 stripped
@@ -1081,11 +1116,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1290629565434186051, guid: 4944aa1e959015c4b9a1a04d3b9f5424, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2355907669154796501, guid: 4944aa1e959015c4b9a1a04d3b9f5424, type: 3}
       propertyPath: m_TagString
-      value: NapTask
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3014517469194416955, guid: 4944aa1e959015c4b9a1a04d3b9f5424, type: 3}
       propertyPath: m_RootOrder
@@ -1118,7 +1153,7 @@ PrefabInstance:
     - target: {fileID: 3986129223475978112, guid: 4944aa1e959015c4b9a1a04d3b9f5424, type: 3}
       propertyPath: semesterTextObject
       value: 
-      objectReference: {fileID: 1409646789}
+      objectReference: {fileID: 5930789243990322902, guid: df56782b036e8874386a967fdf5d10b3, type: 3}
     - target: {fileID: 3986129223475978113, guid: 4944aa1e959015c4b9a1a04d3b9f5424, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1169,15 +1204,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6248944568357695735, guid: 4944aa1e959015c4b9a1a04d3b9f5424, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6907642057302265881, guid: 4944aa1e959015c4b9a1a04d3b9f5424, type: 3}
       propertyPath: m_Name
       value: MakeFriends
       objectReference: {fileID: 0}
+    - target: {fileID: 6907642057302265881, guid: 4944aa1e959015c4b9a1a04d3b9f5424, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 7485075697960249953, guid: 4944aa1e959015c4b9a1a04d3b9f5424, type: 3}
       propertyPath: m_TagString
-      value: StudyTask
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4944aa1e959015c4b9a1a04d3b9f5424, type: 3}

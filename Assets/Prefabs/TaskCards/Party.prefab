@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -2326925691736601381}
   m_Layer: 5
   m_Name: Party
-  m_TagString: Untagged
+  m_TagString: PartyLv2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,6 +95,7 @@ MonoBehaviour:
   health: 0
   stress: -10
   description: Partied all night....
+  taskImage: {fileID: 0}
 --- !u!1 &5392088032896498698
 GameObject:
   m_ObjectHideFlags: 0

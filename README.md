@@ -43,4 +43,6 @@ To-Do:
 - Remade UI components for task panel, supporting a scrollable view of tasks in grid layout format.
 - Reprogrammed task initialization. Now we could initialize and add task buttons to the list of tasks in the task panel through code!
 	- Steps to do this: create task card prefab and assign it a tag, add task card prefab under game manager, change the script TaskOptionsControl
+- Add task level up: instantiate new task after player attribubte pass a certain threshold
+- Add a pop up text that notifies players in updates in their available tasks
 - Remaining issue: this feature only available for the first scene.

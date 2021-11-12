@@ -4,9 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - MakeFriendsTask
-  - NapTask
-  - StudyTask
+  - StudyLv1
+  - NapLv1
+  - MakeFriendLv1
+  - PartyLv2
   layers:
   - Default
   - TransparentFX
