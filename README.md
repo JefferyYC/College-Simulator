@@ -46,3 +46,8 @@ To-Do:
 - Add task level up: instantiate new task after player attribubte pass a certain threshold
 - Add a pop up text that notifies players in updates in their available tasks
 - Remaining issue: this feature only available for the first scene.
+
+2021/11/12: By Alan
+- Completed the main skelton for showing end-game results: currently, just randmized the results (does not depend on previous actions).
+- Enable developers to easily add different kinds of result stories by simply adding an empty object, attach script, and create stories and images.
+- TO-DOs: Data presistency and connect it to this result scene.
