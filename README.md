@@ -51,3 +51,7 @@ To-Do:
 - Completed the main skelton for showing end-game results: currently, just randmized the results (does not depend on previous actions).
 - Enable developers to easily add different kinds of result stories by simply adding an empty object, attach script, and create stories and images.
 - TO-DOs: Data presistency and connect it to this result scene.
+
+2021/11/14: By Jeffery
+- Fix some minor bugs, unify all four scenes to have the same prefabs.
+- Remaining issue: data persistency. Level loader on scene 1 not loading correctly

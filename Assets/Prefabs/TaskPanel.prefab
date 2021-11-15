@@ -49,6 +49,7 @@ GameObject:
   - component: {fileID: 2451857083461288825}
   - component: {fileID: 6858688146956273664}
   - component: {fileID: 4511964469610587885}
+  - component: {fileID: 5778339555009705637}
   m_Layer: 5
   m_Name: TaskOptionList
   m_TagString: Untagged
@@ -151,6 +152,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 0
   m_VerticalFit: 0
+--- !u!114 &5778339555009705637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2941507938778789519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd235b004a1355f4c975496a8667f3fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  taskTemplate: {fileID: 4937552275078554121, guid: 86be3d5979b293749b70d4d21fffb249, type: 3}
 --- !u!1 &3470459732583688184
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,8 +197,8 @@ RectTransform:
   m_Father: {fileID: 4193365449624991778}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.21948627}
+  m_AnchorMax: {x: 1, y: 0.9999938}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -244,7 +258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4259316370709852242
 RectTransform:
   m_ObjectHideFlags: 0
