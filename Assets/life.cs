@@ -31,12 +31,13 @@ public class life : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             
-            Debug.Log(milestones[pointer].GetComponent<company>().description[pointer]);
-            description.text = milestones[pointer].GetComponent<company>().description[level];
-            myImage.sprite = milestones[pointer].GetComponent<company>().image[level];
-
-            pointer = pointer + 1;
-
+            if (pointer < milestones.Length)
+            {
+                Debug.Log(milestones[pointer].GetComponent<company>().description[pointer]);
+                description.text = milestones[pointer].GetComponent<company>().description[level];
+                myImage.sprite = milestones[pointer].GetComponent<company>().image[level];
+                pointer = pointer + 1;
+            }
         }
     }
 }

@@ -41,8 +41,8 @@ public class LevelLoader : MonoBehaviour
         gmScript = gm.GetComponent<GameManager>();
         //Wait
         yield return new WaitForSeconds(transitionTime);
+        //this.transform.Find("TransitionImage").gameObject.SetActive(false);
         SceneManager.LoadScene("Scene5");
-        this.transform.Find("TransitionImage").gameObject.SetActive(false);
         //Load Scene
         gmScript.semesterNum += 1;
         //Debug.Log("1111111111");

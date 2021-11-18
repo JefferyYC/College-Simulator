@@ -55,3 +55,7 @@ To-Do:
 2021/11/14: By Jeffery
 - Fix some minor bugs, unify all four scenes to have the same prefabs.
 - Remaining issue: data persistency. Level loader on scene 1 not loading correctly
+
+2021/11/17: By Jeffery
+- Created new branch with one master scene for all 4 semesters that solves data persistency issue
+= Added task card pictures to the code base

@@ -85,11 +85,11 @@ public class TransitionPanel : MonoBehaviour
                 scheduleLayout.taskcount = 1;
                 //gmScript.turn += 1;
                 taskPointer = 0;
-                if (gmScript.turn == 3)
+                if (gmScript.turn == 8)
                 {
                     levelManager.LoadGraduation();
                 }
-                else if (gmScript.turn > 0 && gmScript.turn % 3 == 0)
+                else if (gmScript.turn > 0 && gmScript.turn % 2 == 0)
                 {
                     levelManager.LoadNextLevel();
                 }
