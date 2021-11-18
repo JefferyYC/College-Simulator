@@ -2,33 +2,49 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 
 public class LevelLoader : MonoBehaviour
 {
-    public Animator transition;
-
     public float transitionTime = 1f;
 
     GameManager gmScript;
     
+    public void LoadGraduation()
+    {
+        StartCoroutine(GraduationTransition());
+    }
 
     public void LoadNextLevel()
     {
-        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        StartCoroutine(LoadLevel());
     }
 
-    IEnumerator LoadLevel(int levelIndex)
+    IEnumerator LoadLevel()
     {
-        //Play animation
-
-        transition.SetTrigger("Start");
+        this.transform.Find("TransitionImage").gameObject.SetActive(true);
         GameObject gm = GameObject.Find("GameManager");
         gmScript = gm.GetComponent<GameManager>();
         //Wait
         yield return new WaitForSeconds(transitionTime);
+        this.transform.Find("TransitionImage").gameObject.SetActive(false);
         //Load Scene
         gmScript.semesterNum += 1;
-        SceneManager.LoadScene(levelIndex);
+        //Debug.Log("1111111111");
+    }
+
+    IEnumerator GraduationTransition()
+    {
+        this.transform.Find("TransitionImage").gameObject.SetActive(true);
+        GameObject gm = GameObject.Find("GameManager");
+        gmScript = gm.GetComponent<GameManager>();
+        //Wait
+        yield return new WaitForSeconds(transitionTime);
+        SceneManager.LoadScene("Scene5");
+        this.transform.Find("TransitionImage").gameObject.SetActive(false);
+        //Load Scene
+        gmScript.semesterNum += 1;
         //Debug.Log("1111111111");
     }
 }

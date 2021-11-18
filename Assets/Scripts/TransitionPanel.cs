@@ -85,19 +85,15 @@ public class TransitionPanel : MonoBehaviour
                 scheduleLayout.taskcount = 1;
                 //gmScript.turn += 1;
                 taskPointer = 0;
-                if (gmScript.turn > 2)
+                if (gmScript.turn == 3)
                 {
-                    //oldtask = scheduledTasks[taskPointer];
-                    //newtask = GameObject.Instantiate(emptyTask) as GameObject;
-                    //scheduledTasks[taskPointer] = newtask;
-                    //gmScript.turn = 1;
-      
+                    levelManager.LoadGraduation();
+                }
+                else if (gmScript.turn > 0 && gmScript.turn % 3 == 0)
+                {
                     levelManager.LoadNextLevel();
                 }
-                else
-                {
-                    gmScript.turn += 1;
-                }
+                gmScript.turn += 1;
             }
             else
             {
