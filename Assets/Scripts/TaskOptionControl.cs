@@ -10,9 +10,9 @@ public class TaskOptionControl : MonoBehaviour
     private GameObject taskTemplate;
 
     // Display name (the text shown on the task panel)
-    private List<string> initialTaskDisplay = new List<string> { "Make Friend", "Nap", "Study" };
+    private List<string> initialTaskDisplay = new List<string> { "Make Friend", "Nap", "Study", "Workout", "Coding" };
     // Tag (to access the task card objects)
-    private List<string> initialTaskTag = new List<string> { "MakeFriendLv1", "NapLv1", "StudyLv1" };
+    private List<string> initialTaskTag = new List<string> { "MakeFriendLv1", "NapLv1", "StudyLv1", "WorkoutLv1", "CodingLv1" };
 
     private GameManager gmScript;
 

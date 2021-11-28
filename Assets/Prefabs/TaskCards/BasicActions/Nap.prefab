@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1130607942698997338
+--- !u!1 &1642595701835963941
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,29 +8,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8771272234293081464}
-  - component: {fileID: 4729519321353083248}
-  - component: {fileID: 5045413707567152223}
-  - component: {fileID: 53591512080055696}
+  - component: {fileID: 6972351117502070023}
+  - component: {fileID: 6402347607117779215}
+  - component: {fileID: 6881496865668740128}
+  - component: {fileID: -1288293231907681593}
   m_Layer: 5
-  m_Name: MakeFriends
-  m_TagString: MakeFriendLv1
+  m_Name: Nap
+  m_TagString: NapLv1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &8771272234293081464
+--- !u!224 &6972351117502070023
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1130607942698997338}
+  m_GameObject: {fileID: 1642595701835963941}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 7385570570016644653}
+  - {fileID: 9152938095344146002}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -39,21 +39,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0.00022888184, y: 94.404}
   m_SizeDelta: {x: 100, y: 27.3024}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &4729519321353083248
+--- !u!222 &6402347607117779215
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1130607942698997338}
+  m_GameObject: {fileID: 1642595701835963941}
   m_CullTransparentMesh: 1
---- !u!114 &5045413707567152223
+--- !u!114 &6881496865668740128
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1130607942698997338}
+  m_GameObject: {fileID: 1642595701835963941}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -77,26 +77,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &53591512080055696
+--- !u!114 &-1288293231907681593
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1130607942698997338}
+  m_GameObject: {fileID: 1642595701835963941}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43b8ef7655ca5364d8f9c8efae29d44e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  industry: 0
-  academic: 0
-  social: 10
-  health: 0
-  stress: -10
-  description: Met with a strange person today
-  taskImage: {fileID: 21300000, guid: e90742e93b5dd59478e8571299bd47bc, type: 3}
---- !u!1 &6030212728044729461
+  academic: -3
+  social: -5
+  health: 10
+  stress: -15
+  description: Feeling exhausted, you took a nap on your bed for an hour
+  taskImage: {fileID: 21300000, guid: 8b9a239444d1da543bfb3c739e6fcc36, type: 3}
+--- !u!1 &5392088032896498698
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -104,9 +103,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7385570570016644653}
-  - component: {fileID: 4476359399671542786}
-  - component: {fileID: 5765577267045877601}
+  - component: {fileID: 9152938095344146002}
+  - component: {fileID: 2838442944550943869}
+  - component: {fileID: 5294091328674418462}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -114,18 +113,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &7385570570016644653
+--- !u!224 &9152938095344146002
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6030212728044729461}
+  m_GameObject: {fileID: 5392088032896498698}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 8771272234293081464}
+  m_Father: {fileID: 6972351117502070023}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -133,21 +132,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -0.000033081}
   m_SizeDelta: {x: 100, y: 27.302}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &4476359399671542786
+--- !u!222 &2838442944550943869
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6030212728044729461}
+  m_GameObject: {fileID: 5392088032896498698}
   m_CullTransparentMesh: 1
---- !u!114 &5765577267045877601
+--- !u!114 &5294091328674418462
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6030212728044729461}
+  m_GameObject: {fileID: 5392088032896498698}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
@@ -174,4 +173,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Make Friends
+  m_Text: Nap

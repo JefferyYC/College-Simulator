@@ -8,6 +8,8 @@ TagManager:
   - NapLv1
   - MakeFriendLv1
   - PartyLv2
+  - WorkoutLv1
+  - CodingLv1
   layers:
   - Default
   - TransparentFX

@@ -228,7 +228,7 @@ PrefabInstance:
     - target: {fileID: 3986129223475978112, guid: 4944aa1e959015c4b9a1a04d3b9f5424, type: 3}
       propertyPath: industryObject
       value: 
-      objectReference: {fileID: 1918277480}
+      objectReference: {fileID: 0}
     - target: {fileID: 3986129223475978112, guid: 4944aa1e959015c4b9a1a04d3b9f5424, type: 3}
       propertyPath: turnTextObject
       value: 
@@ -646,11 +646,6 @@ GameObject:
 --- !u!1 &1918277479 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1149118029237840087, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
-  m_PrefabInstance: {fileID: 1918277475}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1918277480 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1149118028935507479, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
   m_PrefabInstance: {fileID: 1918277475}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1918277481 stripped

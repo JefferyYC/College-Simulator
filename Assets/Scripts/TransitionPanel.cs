@@ -72,7 +72,6 @@ public class TransitionPanel : MonoBehaviour
             curTask = oldtask.GetComponent<Task>();
             description.text = curTask.description;
             taskImage.sprite = curTask.taskImage;
-            gmScript.industry += curTask.industry;
             gmScript.academic += curTask.academic;
             gmScript.social += curTask.social;
             gmScript.health += curTask.health;

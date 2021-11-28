@@ -5,7 +5,6 @@ using UnityEngine;
 [System.Serializable]
 public class Task: MonoBehaviour
 {
-    public int industry;
     public int academic;
     public int social;
     public int health;
