@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &759359472807897204
+--- !u!1 &4105455360974293249
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,29 +8,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8971347591502285654}
-  - component: {fileID: 4943774015419131742}
-  - component: {fileID: 4845197604405428849}
-  - component: {fileID: 7255734330430211611}
+  - component: {fileID: 5688303163273030179}
+  - component: {fileID: 8569110713502484011}
+  - component: {fileID: 8164411498441646852}
+  - component: {fileID: 8180565083111545855}
   m_Layer: 5
-  m_Name: Coding
-  m_TagString: CodingLv1
+  m_Name: Rest Day
+  m_TagString: RestLv2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &8971347591502285654
+--- !u!224 &5688303163273030179
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759359472807897204}
+  m_GameObject: {fileID: 4105455360974293249}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 7153864414610726915}
+  - {fileID: 5852402721838874998}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -39,21 +39,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0.00022888184, y: 94.404}
   m_SizeDelta: {x: 100, y: 27.3024}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &4943774015419131742
+--- !u!222 &8569110713502484011
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759359472807897204}
+  m_GameObject: {fileID: 4105455360974293249}
   m_CullTransparentMesh: 1
---- !u!114 &4845197604405428849
+--- !u!114 &8164411498441646852
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759359472807897204}
+  m_GameObject: {fileID: 4105455360974293249}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -77,28 +77,29 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7255734330430211611
+--- !u!114 &8180565083111545855
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759359472807897204}
+  m_GameObject: {fileID: 4105455360974293249}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43b8ef7655ca5364d8f9c8efae29d44e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  academic: 5
-  social: -10
-  health: -10
-  stress: 10
-  cs: 15
+  academic: -3
+  social: -5
+  health: 10
+  stress: -30
+  cs: 0
   music: 0
   gaming: 0
-  description: Debugged for 2 hours, and found out named 2 variables the same
-  taskImage: {fileID: 21300000, guid: 2e539c6562018684380263b6e2529c95, type: 3}
---- !u!1 &6239436030460611163
+  description: "You\u2019re super burnt out from everything that\u2019s been happening.
+    Time to enjoy some popcorn while watching some Netflix! "
+  taskImage: {fileID: 21300000, guid: 8b9a239444d1da543bfb3c739e6fcc36, type: 3}
+--- !u!1 &7270681785371110190
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,9 +107,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7153864414610726915}
-  - component: {fileID: 4262175107233008172}
-  - component: {fileID: 6141222690235857231}
+  - component: {fileID: 5852402721838874998}
+  - component: {fileID: 672726437541751641}
+  - component: {fileID: 7442842642938976314}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -116,18 +117,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &7153864414610726915
+--- !u!224 &5852402721838874998
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6239436030460611163}
+  m_GameObject: {fileID: 7270681785371110190}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 8971347591502285654}
+  m_Father: {fileID: 5688303163273030179}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -135,21 +136,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -0.000033081}
   m_SizeDelta: {x: 100, y: 27.302}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &4262175107233008172
+--- !u!222 &672726437541751641
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6239436030460611163}
+  m_GameObject: {fileID: 7270681785371110190}
   m_CullTransparentMesh: 1
---- !u!114 &6141222690235857231
+--- !u!114 &7442842642938976314
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6239436030460611163}
+  m_GameObject: {fileID: 7270681785371110190}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
@@ -176,6 +177,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Coding
-
-'
+  m_Text: Rest Day

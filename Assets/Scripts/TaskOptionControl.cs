@@ -10,9 +10,9 @@ public class TaskOptionControl : MonoBehaviour
     private GameObject taskTemplate;
 
     // Display name (the text shown on the task panel)
-    private List<string> initialTaskDisplay = new List<string> { "Make Friend", "Nap", "Study", "Workout", "Coding" };
+    private List<string> initialTaskDisplay = new List<string> { "Make Friend", "Nap", "Study", "Workout", "Coding", "Study Music Sheets", "Gaming" };
     // Tag (to access the task card objects)
-    private List<string> initialTaskTag = new List<string> { "MakeFriendLv1", "NapLv1", "StudyLv1", "WorkoutLv1", "CodingLv1" };
+    private List<string> initialTaskTag = new List<string> { "MakeFriendLv1", "NapLv1", "StudyLv1", "WorkoutLv1", "CodingLv1", "MusicLv1", "GamingLv1" };
 
     private GameManager gmScript;
 
@@ -42,20 +42,146 @@ public class TaskOptionControl : MonoBehaviour
 
     void UpdateTask()
     {
-        if (gmScript.social >= 20)
+        // If performed base action over 5 times, add boost action in the next turn and reset count
+        if (gmScript.studyCount >= 5)
         {
-            if (!initialTaskDisplay.Contains("Party"))
+            StartCoroutine(Notify("Intensive Study"));
+            if (!initialTaskDisplay.Contains("Intensive Study"))
             {
-                GameObject newTask = Instantiate(taskTemplate) as GameObject;
-                newTask.SetActive(true);
-                newTask.transform.SetParent(this.transform, false);
-                newTask.GetComponent<TaskCardButton>().setTaskCard(GameObject.FindGameObjectWithTag("PartyLv2"));
-                newTask.GetComponent<TaskCardButton>().setText("Party");
-                initialTaskDisplay.Add("Party");
-                initialTaskTag.Add("PartyLv2");
-                StartCoroutine(Notify("Party"));
+                AddTask("Intensive Study", "StudyLv2", "Intensive Study Card");
+                gmScript.studyCount = 0;
             }
         }
+        else  // remove boost action after the turn it is added
+        {
+            if (initialTaskDisplay.Contains("Intensive Study"))
+            {
+                RemoveTask("Intensive Study", "StudyLv2", "Intensive Study Card");
+            }
+        }
+
+
+        if (gmScript.socialCount >= 5)
+        {
+            StartCoroutine(Notify("Party"));
+            if (!initialTaskDisplay.Contains("Party"))
+            {
+                AddTask("Party", "PartyLv2", "Party Card");
+                gmScript.socialCount = 0;
+            }
+        }
+        else
+        {
+            if (initialTaskDisplay.Contains("Party"))
+            {
+                RemoveTask("Party", "PartyLv2", "Party Card");
+            }
+        }
+
+        if (gmScript.workoutCount >= 5)
+        {
+            StartCoroutine(Notify("Breaking PRs"));
+            if (!initialTaskDisplay.Contains("Breaking PRs"))
+            {
+                AddTask("Breaking PRs", "WorkoutLv2", "Breaking PRs Card");
+                gmScript.workoutCount = 0;
+            }
+        }
+        else
+        {
+            if (initialTaskDisplay.Contains("Breaking PRs"))
+            {
+                RemoveTask("Breaking PRs", "WorkoutLv2", "Breaking PRs Card");
+            }
+        }
+
+        if (gmScript.napCount >= 5)
+        {
+            StartCoroutine(Notify("Rest Day"));
+            if (!initialTaskDisplay.Contains("Rest Day"))
+            {
+                AddTask("Rest Day", "RestLv2", "Rest Day Card");
+                gmScript.napCount = 0;
+            }
+        }
+        else
+        {
+            if (initialTaskDisplay.Contains("Rest Day"))
+            {
+                RemoveTask("Rest Day", "RestLv2", "Rest Day Card");
+            }
+        }
+
+        if (gmScript.csCount >= 5)
+        {
+            StartCoroutine(Notify("Leetcode Grind"));
+            if (!initialTaskDisplay.Contains("Leetcode Grind"))
+            {
+                AddTask("Leetcode Grind", "CodingLv2", "Leetcode Grind Card");
+                gmScript.csCount = 0;
+            }
+        }
+        else
+        {
+            if (initialTaskDisplay.Contains("Leetcode Grind"))
+            {
+                RemoveTask("Leetcode Grind", "CodingLv2", "Leetcode Grind Card");
+            }
+        }
+
+        if (gmScript.gamingCount >= 5)
+        {
+            StartCoroutine(Notify("Rank Up In LOL"));
+            if (!initialTaskDisplay.Contains("Rank Up In LOL"))
+            {
+                AddTask("Rank Up In LOL", "GamingLv2", "Rank Up In LOL Card");
+                gmScript.gamingCount = 0;
+            }
+        }
+        else
+        {
+            if (initialTaskDisplay.Contains("Rank Up In LOL"))
+            {
+                RemoveTask("Rank Up In LOL", "GamingLv2", "Rank Up In LOL Card");
+            }
+        }
+
+        if (gmScript.musicCount >= 5)
+        {
+            StartCoroutine(Notify("Play Like Mozart"));
+            if (!initialTaskDisplay.Contains("Play Like Mozart"))
+            {
+                AddTask("Play Like Mozart", "MusicLv2", "Play Like Mozart Card");
+                gmScript.musicCount = 0;
+            }
+        }
+        else
+        {
+            if (initialTaskDisplay.Contains("Play Like Mozart"))
+            {
+                RemoveTask("Play Like Mozart", "MusicLv2", "Play Like Mozart Card");
+            }
+        }
+    }
+
+    // Add a task card to task panel
+    void AddTask(string display, string taskTag, string cardTag)
+    {
+            GameObject newTask = Instantiate(taskTemplate) as GameObject;
+            newTask.gameObject.tag = cardTag;
+            newTask.SetActive(true);
+            newTask.transform.SetParent(this.transform, false);
+            newTask.GetComponent<TaskCardButton>().setTaskCard(GameObject.FindGameObjectWithTag(taskTag));
+            newTask.GetComponent<TaskCardButton>().setText(display);
+            initialTaskDisplay.Add(display);
+            initialTaskTag.Add(taskTag);
+    }
+
+    void RemoveTask(string display, string taskTag, string cardTag)
+    {
+        Destroy(GameObject.FindWithTag(cardTag));
+        initialTaskDisplay.Remove(display);
+        initialTaskTag.Remove(taskTag);
     }
 
     // A pop up text that notifies players updates in available tasks, disappear after 1f

@@ -59,3 +59,8 @@ To-Do:
 2021/11/17: By Jeffery
 - Created new branch with one master scene for all 4 semesters that solves data persistency issue
 = Added task card pictures to the code base
+
+2021/11/28: By Jeffery
+- Added all the base and boosted actions. Boosted actions unlock everytime base actions performed 5 times. After boosted action is unlocked, counter resets.
+  Boosted action removed from task panel the next round.
+- TODO: Unique Actions. Endings. 1 time per round lock for boosted and unique actions.

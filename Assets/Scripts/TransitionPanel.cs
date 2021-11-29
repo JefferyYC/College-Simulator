@@ -60,7 +60,7 @@ public class TransitionPanel : MonoBehaviour
         //if 2 turns, goes to next scene
 
         // On a click, the attributes updates based on the current task listed on the transition scene
-        // And then the transition scene's text transits the the next task
+        // And then the transition scene's text transits to the next task
         // If there is no more next task, transition scence closes
         if (Input.GetMouseButtonDown(0))
         {
@@ -76,7 +76,11 @@ public class TransitionPanel : MonoBehaviour
             gmScript.social += curTask.social;
             gmScript.health += curTask.health;
             gmScript.stress += curTask.stress;
+            gmScript.cs += curTask.cs;
+            gmScript.music += curTask.music;
+            gmScript.gaming += curTask.gaming;
 
+            incrementCount(oldtask);
 
             if (taskPointer >= scheduledTasks.Count)
             {
@@ -107,6 +111,38 @@ public class TransitionPanel : MonoBehaviour
             newtask.transform.localScale = oldtask.transform.localScale;
             newtask.transform.name = "EmptyTask" + taskPointer;
             Destroy(oldtask);
+        }
+    }
+
+    void incrementCount(GameObject oldTask)
+    {
+        if (oldTask.tag == "StudyLv1")
+        {
+            gmScript.studyCount += 1;
+        }
+        else if (oldTask.tag == "MakeFriendLv1")
+        {
+            gmScript.socialCount += 1;
+        }
+        else if (oldTask.tag == "WorkoutLv1")
+        {
+            gmScript.workoutCount += 1;
+        }
+        else if (oldTask.tag == "NapLv1")
+        {
+            gmScript.napCount += 1;
+        }
+        else if (oldTask.tag == "CodingLv1")
+        {
+            gmScript.csCount += 1;
+        }
+        else if (oldTask.tag == "MusicLv1")
+        {
+            gmScript.musicCount += 1;
+        }
+        else if (oldTask.tag == "GamingLv1")
+        {
+            gmScript.gamingCount += 1;
         }
     }
 }

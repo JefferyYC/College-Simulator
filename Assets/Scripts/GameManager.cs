@@ -11,6 +11,17 @@ public class GameManager : MonoBehaviour
 	public int social;
 	public int health;
 	public int stress;
+	public int cs;
+	public int music;
+	public int gaming;
+
+	public int studyCount;
+	public int socialCount;
+	public int workoutCount;
+	public int napCount;
+	public int csCount;
+	public int musicCount;
+	public int gamingCount;
 
 	public int turn = 1;
 	public GameObject turnTextObject;

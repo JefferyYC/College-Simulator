@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &759359472807897204
+--- !u!1 &2887938379862181565
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,29 +8,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8971347591502285654}
-  - component: {fileID: 4943774015419131742}
-  - component: {fileID: 4845197604405428849}
-  - component: {fileID: 7255734330430211611}
+  - component: {fileID: 6781696285324944799}
+  - component: {fileID: 7351595924964034967}
+  - component: {fileID: 7034715259797843128}
+  - component: {fileID: 7019618511021167683}
   m_Layer: 5
-  m_Name: Coding
-  m_TagString: CodingLv1
+  m_Name: Play Like Mozart
+  m_TagString: MusicLv2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &8971347591502285654
+--- !u!224 &6781696285324944799
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759359472807897204}
+  m_GameObject: {fileID: 2887938379862181565}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 7153864414610726915}
+  - {fileID: 4745223927280946890}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -39,21 +39,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0.00022888184, y: 94.404}
   m_SizeDelta: {x: 100, y: 27.3024}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &4943774015419131742
+--- !u!222 &7351595924964034967
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759359472807897204}
+  m_GameObject: {fileID: 2887938379862181565}
   m_CullTransparentMesh: 1
---- !u!114 &4845197604405428849
+--- !u!114 &7034715259797843128
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759359472807897204}
+  m_GameObject: {fileID: 2887938379862181565}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -77,28 +77,28 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7255734330430211611
+--- !u!114 &7019618511021167683
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 759359472807897204}
+  m_GameObject: {fileID: 2887938379862181565}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43b8ef7655ca5364d8f9c8efae29d44e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  academic: 5
-  social: -10
-  health: -10
-  stress: 10
-  cs: 15
-  music: 0
+  academic: -3
+  social: 0
+  health: 0
+  stress: -10
+  cs: 0
+  music: 30
   gaming: 0
-  description: Debugged for 2 hours, and found out named 2 variables the same
-  taskImage: {fileID: 21300000, guid: 2e539c6562018684380263b6e2529c95, type: 3}
---- !u!1 &6239436030460611163
+  description: You can play like Mozart
+  taskImage: {fileID: 21300000, guid: 836e267d14e8a71478676701d8c6480e, type: 3}
+--- !u!1 &8361816500864885906
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,9 +106,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7153864414610726915}
-  - component: {fileID: 4262175107233008172}
-  - component: {fileID: 6141222690235857231}
+  - component: {fileID: 4745223927280946890}
+  - component: {fileID: 1854221221933032677}
+  - component: {fileID: 8622085079914403718}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -116,18 +116,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &7153864414610726915
+--- !u!224 &4745223927280946890
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6239436030460611163}
+  m_GameObject: {fileID: 8361816500864885906}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 8971347591502285654}
+  m_Father: {fileID: 6781696285324944799}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -135,21 +135,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -0.000033081}
   m_SizeDelta: {x: 100, y: 27.302}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &4262175107233008172
+--- !u!222 &1854221221933032677
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6239436030460611163}
+  m_GameObject: {fileID: 8361816500864885906}
   m_CullTransparentMesh: 1
---- !u!114 &6141222690235857231
+--- !u!114 &8622085079914403718
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6239436030460611163}
+  m_GameObject: {fileID: 8361816500864885906}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
@@ -165,10 +165,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -176,6 +176,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Coding
-
-'
+  m_Text: Play Like Mozart
