@@ -25,6 +25,20 @@ TagManager:
   - Play Like Mozart Card
   - Breaking PRs Card
   - MusicLv2
+  - WorkoutLv3
+  - WorkoutLv4
+  - StudyLv3
+  - StudyLv4
+  - CodingLv3
+  - CodingLv4
+  - SocialLv3
+  - SocialLv4
+  - MusicLv3
+  - MusicLv4
+  - GamingLv3
+  - GamingLv4
+  - RestLv3
+  - RestLv4
   layers:
   - Default
   - TransparentFX

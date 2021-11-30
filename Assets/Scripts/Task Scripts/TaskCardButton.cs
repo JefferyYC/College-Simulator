@@ -46,4 +46,10 @@ public class TaskCardButton : MonoBehaviour
             Destroy(oldtask);
         }
     }
+
+    public void SelectTaskThenDestroy()
+    {
+        SelectTask();
+        Destroy(gameObject);
+    }
 }

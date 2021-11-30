@@ -64,3 +64,7 @@ To-Do:
 - Added all the base and boosted actions. Boosted actions unlock everytime base actions performed 5 times. After boosted action is unlocked, counter resets.
   Boosted action removed from task panel the next round.
 - TODO: Unique Actions. Endings. 1 time per round lock for boosted and unique actions.
+
+2021/11/29: By Jeffery
+- Added unique action cards (not code yet). Implented self destroy after click for boost and unique actions (so player can only click it once and it removes itself)
+- TODO: Unique Actions Code. Endings.

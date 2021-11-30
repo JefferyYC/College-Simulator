@@ -8,6 +8,10 @@ public class TaskOptionControl : MonoBehaviour
 {
     [SerializeField]
     private GameObject taskTemplate;
+    [SerializeField]
+    private GameObject boostedTaskTemplate;
+    [SerializeField]
+    private GameObject uniqueTaskTemplate;
 
     // Display name (the text shown on the task panel)
     private List<string> initialTaskDisplay = new List<string> { "Make Friend", "Nap", "Study", "Workout", "Coding", "Study Music Sheets", "Gaming" };
@@ -45,10 +49,10 @@ public class TaskOptionControl : MonoBehaviour
         // If performed base action over 5 times, add boost action in the next turn and reset count
         if (gmScript.studyCount >= 5)
         {
-            StartCoroutine(Notify("Intensive Study"));
+            StartCoroutine(NotifyUnlockBoost("Intensive Study"));
             if (!initialTaskDisplay.Contains("Intensive Study"))
             {
-                AddTask("Intensive Study", "StudyLv2", "Intensive Study Card");
+                AddBoostedTask("Intensive Study", "StudyLv2", "Intensive Study Card");
                 gmScript.studyCount = 0;
             }
         }
@@ -63,10 +67,10 @@ public class TaskOptionControl : MonoBehaviour
 
         if (gmScript.socialCount >= 5)
         {
-            StartCoroutine(Notify("Party"));
+            StartCoroutine(NotifyUnlockBoost("Party"));
             if (!initialTaskDisplay.Contains("Party"))
             {
-                AddTask("Party", "PartyLv2", "Party Card");
+                AddBoostedTask("Party", "PartyLv2", "Party Card");
                 gmScript.socialCount = 0;
             }
         }
@@ -80,10 +84,10 @@ public class TaskOptionControl : MonoBehaviour
 
         if (gmScript.workoutCount >= 5)
         {
-            StartCoroutine(Notify("Breaking PRs"));
+            StartCoroutine(NotifyUnlockBoost("Breaking PRs"));
             if (!initialTaskDisplay.Contains("Breaking PRs"))
             {
-                AddTask("Breaking PRs", "WorkoutLv2", "Breaking PRs Card");
+                AddBoostedTask("Breaking PRs", "WorkoutLv2", "Breaking PRs Card");
                 gmScript.workoutCount = 0;
             }
         }
@@ -97,10 +101,10 @@ public class TaskOptionControl : MonoBehaviour
 
         if (gmScript.napCount >= 5)
         {
-            StartCoroutine(Notify("Rest Day"));
+            StartCoroutine(NotifyUnlockBoost("Rest Day"));
             if (!initialTaskDisplay.Contains("Rest Day"))
             {
-                AddTask("Rest Day", "RestLv2", "Rest Day Card");
+                AddBoostedTask("Rest Day", "RestLv2", "Rest Day Card");
                 gmScript.napCount = 0;
             }
         }
@@ -114,10 +118,10 @@ public class TaskOptionControl : MonoBehaviour
 
         if (gmScript.csCount >= 5)
         {
-            StartCoroutine(Notify("Leetcode Grind"));
+            StartCoroutine(NotifyUnlockBoost("Leetcode Grind"));
             if (!initialTaskDisplay.Contains("Leetcode Grind"))
             {
-                AddTask("Leetcode Grind", "CodingLv2", "Leetcode Grind Card");
+                AddBoostedTask("Leetcode Grind", "CodingLv2", "Leetcode Grind Card");
                 gmScript.csCount = 0;
             }
         }
@@ -131,10 +135,10 @@ public class TaskOptionControl : MonoBehaviour
 
         if (gmScript.gamingCount >= 5)
         {
-            StartCoroutine(Notify("Rank Up In LOL"));
+            StartCoroutine(NotifyUnlockBoost("Rank Up In LOL"));
             if (!initialTaskDisplay.Contains("Rank Up In LOL"))
             {
-                AddTask("Rank Up In LOL", "GamingLv2", "Rank Up In LOL Card");
+                AddBoostedTask("Rank Up In LOL", "GamingLv2", "Rank Up In LOL Card");
                 gmScript.gamingCount = 0;
             }
         }
@@ -148,10 +152,10 @@ public class TaskOptionControl : MonoBehaviour
 
         if (gmScript.musicCount >= 5)
         {
-            StartCoroutine(Notify("Play Like Mozart"));
+            StartCoroutine(NotifyUnlockBoost("Play Like Mozart"));
             if (!initialTaskDisplay.Contains("Play Like Mozart"))
             {
-                AddTask("Play Like Mozart", "MusicLv2", "Play Like Mozart Card");
+                AddBoostedTask("Play Like Mozart", "MusicLv2", "Play Like Mozart Card");
                 gmScript.musicCount = 0;
             }
         }
@@ -165,9 +169,9 @@ public class TaskOptionControl : MonoBehaviour
     }
 
     // Add a task card to task panel
-    void AddTask(string display, string taskTag, string cardTag)
+    void AddBoostedTask(string display, string taskTag, string cardTag)
     {
-            GameObject newTask = Instantiate(taskTemplate) as GameObject;
+            GameObject newTask = Instantiate(boostedTaskTemplate) as GameObject;
             newTask.gameObject.tag = cardTag;
             newTask.SetActive(true);
             newTask.transform.SetParent(this.transform, false);
@@ -185,9 +189,9 @@ public class TaskOptionControl : MonoBehaviour
     }
 
     // A pop up text that notifies players updates in available tasks, disappear after 1f
-    IEnumerator Notify(string s)
+    IEnumerator NotifyUnlockBoost(string s)
     {
-        notifyText.text = "You have learned a new skill: " + s;
+        notifyText.text = "Unlock Boost: " + s;
         yield return new WaitForSeconds(1f);
         notifyText.text = "";
     }

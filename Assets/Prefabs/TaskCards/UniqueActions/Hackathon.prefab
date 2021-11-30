@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2817760372462763909
+--- !u!1 &2197389058149482368
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,29 +8,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5842253186602540199}
-  - component: {fileID: 7568487250037010607}
-  - component: {fileID: 7975561335024031104}
-  - component: {fileID: 7954490945877831035}
+  - component: {fileID: 7527724738979978402}
+  - component: {fileID: 5795192191358054570}
+  - component: {fileID: 6326116372270437765}
+  - component: {fileID: 6269015952107449726}
   m_Layer: 5
-  m_Name: Leetcode Grind
-  m_TagString: CodingLv2
+  m_Name: Hackathon
+  m_TagString: CodingLv3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &5842253186602540199
+--- !u!224 &7527724738979978402
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2817760372462763909}
+  m_GameObject: {fileID: 2197389058149482368}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 5680405289341581298}
+  - {fileID: 8624631976301737975}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -39,28 +39,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0.00022888184, y: 94.404}
   m_SizeDelta: {x: 100, y: 27.3024}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &7568487250037010607
+--- !u!222 &5795192191358054570
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2817760372462763909}
+  m_GameObject: {fileID: 2197389058149482368}
   m_CullTransparentMesh: 1
---- !u!114 &7975561335024031104
+--- !u!114 &6326116372270437765
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2817760372462763909}
+  m_GameObject: {fileID: 2197389058149482368}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.754717, g: 0.45649529, b: 0, a: 1}
+  m_Color: {r: 0.5058824, g: 0, b: 0.7529412, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -77,13 +77,13 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &7954490945877831035
+--- !u!114 &6269015952107449726
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2817760372462763909}
+  m_GameObject: {fileID: 2197389058149482368}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43b8ef7655ca5364d8f9c8efae29d44e, type: 3}
@@ -93,12 +93,12 @@ MonoBehaviour:
   social: -10
   health: -10
   stress: 10
-  cs: 30
+  cs: 60
   music: 0
   gaming: 0
-  description: Solves Leetcode Hard in 10 min
+  description: Paricipated in biggest Hackathon globally
   taskImage: {fileID: 21300000, guid: 0d88c3e25308b4f47b4c3ca6752e4823, type: 3}
---- !u!1 &8864655582267350442
+--- !u!1 &4783270155574468015
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,9 +106,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5680405289341581298}
-  - component: {fileID: 1636270004829199837}
-  - component: {fileID: 8694614920266378942}
+  - component: {fileID: 8624631976301737975}
+  - component: {fileID: 3445589562070162904}
+  - component: {fileID: 4741579718842461883}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -116,18 +116,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &5680405289341581298
+--- !u!224 &8624631976301737975
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8864655582267350442}
+  m_GameObject: {fileID: 4783270155574468015}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 5842253186602540199}
+  m_Father: {fileID: 7527724738979978402}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -135,21 +135,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -0.000033081}
   m_SizeDelta: {x: 100, y: 27.302}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &1636270004829199837
+--- !u!222 &3445589562070162904
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8864655582267350442}
+  m_GameObject: {fileID: 4783270155574468015}
   m_CullTransparentMesh: 1
---- !u!114 &8694614920266378942
+--- !u!114 &4741579718842461883
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8864655582267350442}
+  m_GameObject: {fileID: 4783270155574468015}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
@@ -176,4 +176,4 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Leetcode Grind
+  m_Text: Hackathon
