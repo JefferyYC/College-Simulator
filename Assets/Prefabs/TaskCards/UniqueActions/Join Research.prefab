@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 3486340579574190939}
   - component: {fileID: 3506929517784853408}
   m_Layer: 5
-  m_Name: Join Research 1
+  m_Name: Join Research
   m_TagString: StudyLv3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

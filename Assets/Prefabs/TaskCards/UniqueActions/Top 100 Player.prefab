@@ -78,9 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Top 100 Player
-
-'
+  m_Text: Top 100 Player
 --- !u!1 &8383484986272891556
 GameObject:
   m_ObjectHideFlags: 0

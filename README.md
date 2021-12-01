@@ -68,3 +68,7 @@ To-Do:
 2021/11/29: By Jeffery
 - Added unique action cards (not code yet). Implented self destroy after click for boost and unique actions (so player can only click it once and it removes itself)
 - TODO: Unique Actions Code. Endings.
+
+2021/11/30: By Jeffery
+- Added all unique action triggers in code.
+- TODO: Endings.

@@ -50,148 +50,215 @@ public class TaskOptionControl : MonoBehaviour
         if (gmScript.studyCount >= 5)
         {
             StartCoroutine(NotifyUnlockBoost("Intensive Study"));
-            if (!initialTaskDisplay.Contains("Intensive Study"))
-            {
-                AddBoostedTask("Intensive Study", "StudyLv2", "Intensive Study Card");
-                gmScript.studyCount = 0;
-            }
+            AddBoostedTask("Intensive Study", "StudyLv2");
+            gmScript.studyCount = 0;
         }
-        else  // remove boost action after the turn it is added
-        {
-            if (initialTaskDisplay.Contains("Intensive Study"))
-            {
-                RemoveTask("Intensive Study", "StudyLv2", "Intensive Study Card");
-            }
-        }
-
 
         if (gmScript.socialCount >= 5)
         {
             StartCoroutine(NotifyUnlockBoost("Party"));
-            if (!initialTaskDisplay.Contains("Party"))
-            {
-                AddBoostedTask("Party", "PartyLv2", "Party Card");
-                gmScript.socialCount = 0;
-            }
-        }
-        else
-        {
-            if (initialTaskDisplay.Contains("Party"))
-            {
-                RemoveTask("Party", "PartyLv2", "Party Card");
-            }
+            AddBoostedTask("Party", "PartyLv2");
+            gmScript.socialCount = 0;
         }
 
         if (gmScript.workoutCount >= 5)
         {
             StartCoroutine(NotifyUnlockBoost("Breaking PRs"));
-            if (!initialTaskDisplay.Contains("Breaking PRs"))
-            {
-                AddBoostedTask("Breaking PRs", "WorkoutLv2", "Breaking PRs Card");
-                gmScript.workoutCount = 0;
-            }
-        }
-        else
-        {
-            if (initialTaskDisplay.Contains("Breaking PRs"))
-            {
-                RemoveTask("Breaking PRs", "WorkoutLv2", "Breaking PRs Card");
-            }
+            AddBoostedTask("Breaking PRs", "WorkoutLv2");
+            gmScript.workoutCount = 0;
         }
 
         if (gmScript.napCount >= 5)
         {
             StartCoroutine(NotifyUnlockBoost("Rest Day"));
-            if (!initialTaskDisplay.Contains("Rest Day"))
-            {
-                AddBoostedTask("Rest Day", "RestLv2", "Rest Day Card");
-                gmScript.napCount = 0;
-            }
-        }
-        else
-        {
-            if (initialTaskDisplay.Contains("Rest Day"))
-            {
-                RemoveTask("Rest Day", "RestLv2", "Rest Day Card");
-            }
+            AddBoostedTask("Rest Day", "RestLv2");
+            gmScript.napCount = 0;
         }
 
         if (gmScript.csCount >= 5)
         {
             StartCoroutine(NotifyUnlockBoost("Leetcode Grind"));
-            if (!initialTaskDisplay.Contains("Leetcode Grind"))
-            {
-                AddBoostedTask("Leetcode Grind", "CodingLv2", "Leetcode Grind Card");
-                gmScript.csCount = 0;
-            }
-        }
-        else
-        {
-            if (initialTaskDisplay.Contains("Leetcode Grind"))
-            {
-                RemoveTask("Leetcode Grind", "CodingLv2", "Leetcode Grind Card");
-            }
+            AddBoostedTask("Leetcode Grind", "CodingLv2");
+            gmScript.csCount = 0;
         }
 
         if (gmScript.gamingCount >= 5)
         {
             StartCoroutine(NotifyUnlockBoost("Rank Up In LOL"));
-            if (!initialTaskDisplay.Contains("Rank Up In LOL"))
-            {
-                AddBoostedTask("Rank Up In LOL", "GamingLv2", "Rank Up In LOL Card");
-                gmScript.gamingCount = 0;
-            }
-        }
-        else
-        {
-            if (initialTaskDisplay.Contains("Rank Up In LOL"))
-            {
-                RemoveTask("Rank Up In LOL", "GamingLv2", "Rank Up In LOL Card");
-            }
+            AddBoostedTask("Rank Up In LOL", "GamingLv2");
+            gmScript.gamingCount -= 5;
         }
 
         if (gmScript.musicCount >= 5)
         {
             StartCoroutine(NotifyUnlockBoost("Play Like Mozart"));
-            if (!initialTaskDisplay.Contains("Play Like Mozart"))
-            {
-                AddBoostedTask("Play Like Mozart", "MusicLv2", "Play Like Mozart Card");
-                gmScript.musicCount = 0;
-            }
+            AddBoostedTask("Play Like Mozart", "MusicLv2");
+            gmScript.musicCount = 0;
         }
-        else
+
+        if (gmScript.academic >= 200)
         {
-            if (initialTaskDisplay.Contains("Play Like Mozart"))
+            if (!initialTaskDisplay.Contains("Join Research"))
             {
-                RemoveTask("Play Like Mozart", "MusicLv2", "Play Like Mozart Card");
+                StartCoroutine(NotifyUnlockUnique("Join Research"));
+                AddUniqueTask("Join Research", "StudyLv3");
+            }
+        }
+
+        if (gmScript.academic >= 400)
+        {
+            if (!initialTaskDisplay.Contains("Publish a Paper"))
+            {
+                StartCoroutine(NotifyUnlockUnique("Publish a Paper"));
+                AddUniqueTask("Publish a Paper", "StudyLv4");
+            }
+        }
+
+        if (gmScript.social >= 200)
+        {
+            if (!initialTaskDisplay.Contains("Become Club Leader"))
+            {
+                StartCoroutine(NotifyUnlockUnique("Become Club Leader"));
+                AddUniqueTask("Become Club Leader", "SocialLv3");
+            }
+        }
+
+        if (gmScript.social >= 400)
+        {
+            if (!initialTaskDisplay.Contains("Dating"))
+            {
+                StartCoroutine(NotifyUnlockUnique("Dating"));
+                AddUniqueTask("Dating", "SocialLv4");
+            }
+        }
+
+        if (gmScript.health >= 200)
+        {
+            if (!initialTaskDisplay.Contains("Join Football Team"))
+            {
+                StartCoroutine(NotifyUnlockUnique("Join Football Team"));
+                AddUniqueTask("Join Football Team", "WorkoutLv3");
+            }
+        }
+
+        if (gmScript.health >= 400)
+        {
+            if (!initialTaskDisplay.Contains("Win Big Game"))
+            {
+                StartCoroutine(NotifyUnlockUnique("Win Big Game"));
+                AddUniqueTask("Win Big Game", "WorkoutLv4");
+            }
+        }
+
+        if (gmScript.stress >= 200)
+        {
+            if (!initialTaskDisplay.Contains("Travel to Japan"))
+            {
+                StartCoroutine(NotifyUnlockUnique("Travel to Japan"));
+                AddUniqueTask("Travel to Japan", "RestLv3");
+            }
+        }
+
+        if (gmScript.stress >= 400)
+        {
+            if (!initialTaskDisplay.Contains("Naked Run"))
+            {
+                StartCoroutine(NotifyUnlockUnique("Naked Run"));
+                AddUniqueTask("Naked Run", "RestLv4");
+            }
+        }
+
+        if (gmScript.cs >= 200)
+        {
+            if (!initialTaskDisplay.Contains("Hackathon"))
+            {
+                StartCoroutine(NotifyUnlockUnique("Hackathon"));
+                AddUniqueTask("Hackathon", "CodingLv3");
+            }
+        }
+
+        if (gmScript.cs >= 400)
+        {
+            if (!initialTaskDisplay.Contains("SWE Internship"))
+            {
+                StartCoroutine(NotifyUnlockUnique("SWE Internship"));
+                AddUniqueTask("SWE Internship", "CodingLv4");
+            }
+        }
+
+        if (gmScript.music >= 200)
+        {
+            if (!initialTaskDisplay.Contains("Perform at Concert"))
+            {
+                StartCoroutine(NotifyUnlockUnique("Perform at Concert"));
+                AddUniqueTask("Perform at Concert", "MusicLv3");
+            }
+        }
+
+        if (gmScript.music >= 400)
+        {
+            if (!initialTaskDisplay.Contains("Release an Album"))
+            {
+                StartCoroutine(NotifyUnlockUnique("Release an Album"));
+                AddUniqueTask("Release an Album", "MusicLv4");
+            }
+        }
+
+        if (gmScript.gaming >= 200)
+        {
+            if (!initialTaskDisplay.Contains("Top 100 Player"))  // never removed this from list, so only shows once
+            {
+                StartCoroutine(NotifyUnlockUnique("Top 100 Player"));
+                AddUniqueTask("Top 100 Player", "GamingLv3");
+            }
+        }
+
+        if (gmScript.gaming >= 400)
+        {
+            if (!initialTaskDisplay.Contains("Collegiate Champion"))
+            {
+                StartCoroutine(NotifyUnlockUnique("Collegiate Champion"));
+                AddUniqueTask("Collegiate Champion", "GamingLv4");
             }
         }
     }
 
-    // Add a task card to task panel
-    void AddBoostedTask(string display, string taskTag, string cardTag)
+    // Add a boosted task card to task panel
+    void AddBoostedTask(string display, string taskTag)
     {
-            GameObject newTask = Instantiate(boostedTaskTemplate) as GameObject;
-            newTask.gameObject.tag = cardTag;
-            newTask.SetActive(true);
-            newTask.transform.SetParent(this.transform, false);
-            newTask.GetComponent<TaskCardButton>().setTaskCard(GameObject.FindGameObjectWithTag(taskTag));
-            newTask.GetComponent<TaskCardButton>().setText(display);
-            initialTaskDisplay.Add(display);
-            initialTaskTag.Add(taskTag);
+        GameObject newTask = Instantiate(boostedTaskTemplate) as GameObject;
+        newTask.SetActive(true);
+        newTask.transform.SetParent(this.transform, false);
+        newTask.GetComponent<TaskCardButton>().setTaskCard(GameObject.FindGameObjectWithTag(taskTag));
+        newTask.GetComponent<TaskCardButton>().setText(display);
+        initialTaskDisplay.Add(display);
+        initialTaskTag.Add(taskTag);
     }
 
-    void RemoveTask(string display, string taskTag, string cardTag)
+    // Add a unique task card to task panel
+    void AddUniqueTask(string display, string taskTag)
     {
-        Destroy(GameObject.FindWithTag(cardTag));
-        initialTaskDisplay.Remove(display);
-        initialTaskTag.Remove(taskTag);
+        GameObject newTask = Instantiate(uniqueTaskTemplate) as GameObject;
+        newTask.SetActive(true);
+        newTask.transform.SetParent(this.transform, false);
+        newTask.GetComponent<TaskCardButton>().setTaskCard(GameObject.FindGameObjectWithTag(taskTag));
+        newTask.GetComponent<TaskCardButton>().setText(display);
+        initialTaskDisplay.Add(display);
+        initialTaskTag.Add(taskTag);
     }
 
-    // A pop up text that notifies players updates in available tasks, disappear after 1f
+    // A pop up text that notifies players unlock boosted tasks, disappear after 1f
     IEnumerator NotifyUnlockBoost(string s)
     {
         notifyText.text = "Unlock Boost: " + s;
+        yield return new WaitForSeconds(1f);
+        notifyText.text = "";
+    }
+
+    // A pop up text that notifies players unlock unique tasks, disappear after 1f
+    IEnumerator NotifyUnlockUnique(string s)
+    {
+        notifyText.text = "Unlock Unique Action: " + s;
         yield return new WaitForSeconds(1f);
         notifyText.text = "";
     }
