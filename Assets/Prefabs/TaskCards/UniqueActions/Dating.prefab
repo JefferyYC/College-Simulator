@@ -178,4 +178,4 @@ MonoBehaviour:
   music: 0
   gaming: 0
   description: Start dating someoen cute.
-  taskImage: {fileID: 21300000, guid: 836e267d14e8a71478676701d8c6480e, type: 3}
+  taskImage: {fileID: 21300000, guid: 7bd177b58d713154c9f82857cf6a2daf, type: 3}

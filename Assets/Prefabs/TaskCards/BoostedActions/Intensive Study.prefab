@@ -177,4 +177,4 @@ MonoBehaviour:
   gaming: 0
   description: You pulled an all-nighter for studying all of the content for your
     exam this upcoming week.
-  taskImage: {fileID: 21300000, guid: 2e539c6562018684380263b6e2529c95, type: 3}
+  taskImage: {fileID: 21300000, guid: 0d88c3e25308b4f47b4c3ca6752e4823, type: 3}

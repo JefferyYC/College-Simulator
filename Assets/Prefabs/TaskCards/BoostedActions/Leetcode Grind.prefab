@@ -97,7 +97,7 @@ MonoBehaviour:
   music: 0
   gaming: 0
   description: Solves Leetcode Hard in 10 min
-  taskImage: {fileID: 21300000, guid: 0d88c3e25308b4f47b4c3ca6752e4823, type: 3}
+  taskImage: {fileID: 21300000, guid: 384a1abb24b5f2247ab6973f148c5e8c, type: 3}
 --- !u!1 &8864655582267350442
 GameObject:
   m_ObjectHideFlags: 0

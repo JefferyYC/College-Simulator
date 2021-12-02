@@ -93,8 +93,11 @@ MonoBehaviour:
   social: -10
   health: -10
   stress: 10
+  cs: 0
+  music: 0
+  gaming: 0
   description: You finished reviewing your notes from the past class lecture
-  taskImage: {fileID: 21300000, guid: 60487f3f271c6cd488d423e069a6823c, type: 3}
+  taskImage: {fileID: 21300000, guid: b0f638d73b8e3b345adfd9ad31e3f9d0, type: 3}
 --- !u!1 &5392088032896498698
 GameObject:
   m_ObjectHideFlags: 0

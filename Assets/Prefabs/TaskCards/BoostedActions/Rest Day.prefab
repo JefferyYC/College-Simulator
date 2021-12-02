@@ -98,7 +98,7 @@ MonoBehaviour:
   gaming: 0
   description: "You\u2019re super burnt out from everything that\u2019s been happening.
     Time to enjoy some popcorn while watching some Netflix! "
-  taskImage: {fileID: 21300000, guid: 8b9a239444d1da543bfb3c739e6fcc36, type: 3}
+  taskImage: {fileID: 21300000, guid: c72187e41180fbf47a6b6adcd3fcb341, type: 3}
 --- !u!1 &7270681785371110190
 GameObject:
   m_ObjectHideFlags: 0

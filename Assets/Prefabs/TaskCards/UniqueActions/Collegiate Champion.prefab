@@ -97,7 +97,7 @@ MonoBehaviour:
   music: 0
   gaming: 60
   description: You won collegiate champion
-  taskImage: {fileID: 21300000, guid: 153da0a97aae56e41a7a7da56b2c0fc6, type: 3}
+  taskImage: {fileID: 21300000, guid: 9a603ffe3c28cab44b080d40ae7a2ca3, type: 3}
 --- !u!1 &8380103720956824654
 GameObject:
   m_ObjectHideFlags: 0

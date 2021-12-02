@@ -176,4 +176,4 @@ MonoBehaviour:
   music: 0
   gaming: 0
   description: Took a week off and traveled to Japan!
-  taskImage: {fileID: 21300000, guid: 8b9a239444d1da543bfb3c739e6fcc36, type: 3}
+  taskImage: {fileID: 21300000, guid: 32ae095f7051b4749831d3927c43a2ed, type: 3}

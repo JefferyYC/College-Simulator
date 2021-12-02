@@ -97,7 +97,7 @@ MonoBehaviour:
   music: 30
   gaming: 0
   description: You can play like Mozart
-  taskImage: {fileID: 21300000, guid: 836e267d14e8a71478676701d8c6480e, type: 3}
+  taskImage: {fileID: 21300000, guid: 8d6d39ccd70d7d54f940ba7f79e742df, type: 3}
 --- !u!1 &8361816500864885906
 GameObject:
   m_ObjectHideFlags: 0

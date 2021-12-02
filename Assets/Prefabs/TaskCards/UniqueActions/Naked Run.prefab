@@ -176,4 +176,4 @@ MonoBehaviour:
   music: 0
   gaming: 0
   description: Naked run during dead week!
-  taskImage: {fileID: 21300000, guid: 8b9a239444d1da543bfb3c739e6fcc36, type: 3}
+  taskImage: {fileID: 21300000, guid: 8c755926ce6ce114c941a80b1dcbc97a, type: 3}

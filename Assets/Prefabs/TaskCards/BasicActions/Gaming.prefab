@@ -178,4 +178,4 @@ MonoBehaviour:
   music: 0
   gaming: 15
   description: I will go to sleep when I win one game
-  taskImage: {fileID: 21300000, guid: 153da0a97aae56e41a7a7da56b2c0fc6, type: 3}
+  taskImage: {fileID: 21300000, guid: db7b176d454bbfb4bb4fb0add1fcf389, type: 3}

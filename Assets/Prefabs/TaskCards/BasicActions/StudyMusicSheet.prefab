@@ -176,4 +176,4 @@ MonoBehaviour:
   music: 15
   gaming: 0
   description: Do Re Mi ~
-  taskImage: {fileID: 21300000, guid: 2e539c6562018684380263b6e2529c95, type: 3}
+  taskImage: {fileID: 21300000, guid: ae39b2b37ffd5974cb82d6634c7b0bec, type: 3}

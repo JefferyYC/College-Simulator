@@ -97,7 +97,7 @@ MonoBehaviour:
   music: 0
   gaming: 0
   description: Became president of consulting club
-  taskImage: {fileID: 21300000, guid: 836e267d14e8a71478676701d8c6480e, type: 3}
+  taskImage: {fileID: 21300000, guid: 353dbef963fe83f408b0e134d661394e, type: 3}
 --- !u!1 &4887268114166256045
 GameObject:
   m_ObjectHideFlags: 0
