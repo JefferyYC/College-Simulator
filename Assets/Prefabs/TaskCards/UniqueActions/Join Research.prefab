@@ -66,11 +66,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
+    m_FontSize: 8
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 8
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -78,9 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Join Research
-
-'
+  m_Text: Join Research
 --- !u!1 &8779108518992984414
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,4 +176,4 @@ MonoBehaviour:
   music: 0
   gaming: 0
   description: You joined the research group led by Nobel winner
-  taskImage: {fileID: 21300000, guid: 2e539c6562018684380263b6e2529c95, type: 3}
+  taskImage: {fileID: 21300000, guid: ab32b3b61a268a84ca66567ac069cc3f, type: 3}

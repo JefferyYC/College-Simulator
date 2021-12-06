@@ -97,7 +97,7 @@ MonoBehaviour:
   music: 0
   gaming: 0
   description: You interned at top sillicon valley company as a software engineerl
-  taskImage: {fileID: 21300000, guid: 0d88c3e25308b4f47b4c3ca6752e4823, type: 3}
+  taskImage: {fileID: 21300000, guid: d39946bd344dbc04383af874ae5e2d7d, type: 3}
 --- !u!1 &5103529008382509302
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,8 +164,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 13
+    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
+    m_FontSize: 9
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1

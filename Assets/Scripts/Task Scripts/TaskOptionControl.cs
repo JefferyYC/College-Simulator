@@ -14,7 +14,7 @@ public class TaskOptionControl : MonoBehaviour
     private GameObject uniqueTaskTemplate;
 
     // Display name (the text shown on the task panel)
-    private List<string> initialTaskDisplay = new List<string> { "Make Friend", "Nap", "Study", "Workout", "Coding", "Study Music Sheets", "Gaming" };
+    private List<string> initialTaskDisplay = new List<string> { "Make Friend", "Nap", "Study", "Workout", "Coding", "Practice Music", "Gaming" };
     // Tag (to access the task card objects)
     private List<string> initialTaskTag = new List<string> { "MakeFriendLv1", "NapLv1", "StudyLv1", "WorkoutLv1", "CodingLv1", "MusicLv1", "GamingLv1" };
 

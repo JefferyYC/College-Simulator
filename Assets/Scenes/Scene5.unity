@@ -757,7 +757,7 @@ MonoBehaviour:
     touchdown. People were so impressed at you that even the NFL noticed you and
     now they want to sign you! Way to go pro athlete. '
   image:
-  - {fileID: 21300000, guid: 59e111bc73f163e47b94fc665f57e52f, type: 3}
+  - {fileID: 21300000, guid: 8b9a239444d1da543bfb3c739e6fcc36, type: 3}
   - {fileID: 21300000, guid: 59e111bc73f163e47b94fc665f57e52f, type: 3}
   - {fileID: 21300000, guid: 59e111bc73f163e47b94fc665f57e52f, type: 3}
 --- !u!4 &413080587
@@ -998,7 +998,7 @@ MonoBehaviour:
     pleasant! And you traveled to Japan after graduation. '
   - You dont give a fk anymore, and you participated in Naked Run!
   image:
-  - {fileID: 21300000, guid: 59e111bc73f163e47b94fc665f57e52f, type: 3}
+  - {fileID: 21300000, guid: 7a6c604ea4cdf234e91b704afcce3368, type: 3}
   - {fileID: 21300000, guid: 32ae095f7051b4749831d3927c43a2ed, type: 3}
   - {fileID: 21300000, guid: 8c755926ce6ce114c941a80b1dcbc97a, type: 3}
 --- !u!4 &725276773
@@ -1065,7 +1065,7 @@ MonoBehaviour:
   image:
   - {fileID: 21300000, guid: c72187e41180fbf47a6b6adcd3fcb341, type: 3}
   - {fileID: 21300000, guid: ae39b2b37ffd5974cb82d6634c7b0bec, type: 3}
-  - {fileID: 21300000, guid: 836e267d14e8a71478676701d8c6480e, type: 3}
+  - {fileID: 21300000, guid: 156058d295ca88d488265d9175681cf2, type: 3}
 --- !u!1 &842893850
 GameObject:
   m_ObjectHideFlags: 0
@@ -1105,7 +1105,7 @@ MonoBehaviour:
     you when they see you on the street. Also, you got cuffed. Not bad, not bad at
     all :) Yes, you made love."
   image:
-  - {fileID: 21300000, guid: 7bd177b58d713154c9f82857cf6a2daf, type: 3}
+  - {fileID: 21300000, guid: c72187e41180fbf47a6b6adcd3fcb341, type: 3}
   - {fileID: 21300000, guid: 7bd177b58d713154c9f82857cf6a2daf, type: 3}
   - {fileID: 21300000, guid: 7bd177b58d713154c9f82857cf6a2daf, type: 3}
 --- !u!4 &842893852
@@ -1222,8 +1222,8 @@ MonoBehaviour:
   - You become a CTO at a Start Up.
   image:
   - {fileID: 21300000, guid: c72187e41180fbf47a6b6adcd3fcb341, type: 3}
-  - {fileID: 21300000, guid: 304623f278226ec4b95cd58148fa904d, type: 3}
-  - {fileID: 21300000, guid: ba56163074e19804d9fb2af6afb43d7f, type: 3}
+  - {fileID: 21300000, guid: d39946bd344dbc04383af874ae5e2d7d, type: 3}
+  - {fileID: 21300000, guid: 384a1abb24b5f2247ab6973f148c5e8c, type: 3}
 --- !u!1 &1044128211
 GameObject:
   m_ObjectHideFlags: 0

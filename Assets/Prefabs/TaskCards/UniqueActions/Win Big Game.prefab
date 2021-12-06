@@ -97,7 +97,7 @@ MonoBehaviour:
   music: 0
   gaming: 0
   description: You are MVP for Big Game victory.
-  taskImage: {fileID: 21300000, guid: 70cb19bc5073c7f468981d10eb08d335, type: 3}
+  taskImage: {fileID: 21300000, guid: 4cd58778d4a78764fa067cbe16312f1d, type: 3}
 --- !u!1 &8854956006754877034
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
     m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 0

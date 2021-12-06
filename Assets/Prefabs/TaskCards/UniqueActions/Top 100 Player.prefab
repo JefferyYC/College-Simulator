@@ -66,8 +66,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 12
+    m_Font: {fileID: 12800000, guid: 8a2b9e2a607dd2143b58c44bc32410b4, type: 3}
+    m_FontSize: 10
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -176,4 +176,4 @@ MonoBehaviour:
   music: 0
   gaming: 60
   description: You became the top 100 player in the game
-  taskImage: {fileID: 21300000, guid: 153da0a97aae56e41a7a7da56b2c0fc6, type: 3}
+  taskImage: {fileID: 21300000, guid: ee62969fc3512fa4e9606e5845b5c4a9, type: 3}
