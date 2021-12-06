@@ -1178,15 +1178,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5025953074766934811, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_Color.b
-      value: 0.07226771
+      value: 0.09892311
       objectReference: {fileID: 0}
     - target: {fileID: 5025953074766934811, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_Color.g
-      value: 0.07352642
+      value: 0.20953323
       objectReference: {fileID: 0}
     - target: {fileID: 5025953074766934811, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_Color.r
-      value: 0.0754717
+      value: 0.5377358
       objectReference: {fileID: 0}
     - target: {fileID: 5025953074766934811, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_FontData.m_Font
@@ -1310,15 +1310,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8042275891427501864, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_Color.b
-      value: 0.07058824
+      value: 0.17501779
       objectReference: {fileID: 0}
     - target: {fileID: 8042275891427501864, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_Color.g
-      value: 0.07450981
+      value: 0.2313774
       objectReference: {fileID: 0}
     - target: {fileID: 8042275891427501864, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_Color.r
-      value: 0.07450981
+      value: 0.6509434
       objectReference: {fileID: 0}
     - target: {fileID: 8042275891427501864, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_FontData.m_Font

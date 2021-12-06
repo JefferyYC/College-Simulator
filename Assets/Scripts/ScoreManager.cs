@@ -19,6 +19,7 @@ public class ScoreManager : MonoBehaviour
     private int gaming;
     #endregion
 
+    /*
     #region Initialziation
     private void Awake()
     {
@@ -62,6 +63,8 @@ public class ScoreManager : MonoBehaviour
         #endregion
     }
     #endregion
+
+    */
 
     public void Restart()
     {
