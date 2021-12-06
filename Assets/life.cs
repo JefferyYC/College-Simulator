@@ -20,6 +20,9 @@ public class life : MonoBehaviour
     private int highest;
     private int highest_index;
 
+    public GameObject nameFilter;
+    public Text name;
+
     private List<int> LevelList = new List<int> {};
 
     public GameObject[] milestones;
@@ -68,6 +71,12 @@ public class life : MonoBehaviour
             gaming = PlayerPrefs.GetInt("gaming");
         }
 
+        if (PlayerPrefs.HasKey("name"))
+        {
+            name.text = PlayerPrefs.GetString("name");
+            Debug.Log("I have a name");
+        }
+
         #endregion
     }
     #endregion
@@ -94,6 +103,7 @@ public class life : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            nameFilter.SetActive(false);
             //SetLevel Function to set level
             level = LevelList[pointer];
             if (pointer < 5)
@@ -115,7 +125,7 @@ public class life : MonoBehaviour
     {
         //
         
-        if (academic < 200)
+        if (academic < 150)
         {
             // Index respective "possible_______" array, and put the indexed component into the YourFuture array.
             // Pesudo-code
@@ -123,7 +133,7 @@ public class life : MonoBehaviour
             
 
         }
-        else if (academic >= 200 && academic < 400)
+        else if (academic >= 150 && academic < 200)
         {
             LevelList.Add(1);
             Debug.Log("HERE");
@@ -135,11 +145,11 @@ public class life : MonoBehaviour
 
         
 
-        if (social < 200)
+        if (social < 150)
         {
             LevelList.Add(0);
         }
-        else if (social >= 200 && social < 400)
+        else if (social >= 150 && social < 200)
         {
             LevelList.Add(1);
         }
@@ -148,29 +158,29 @@ public class life : MonoBehaviour
             LevelList.Add(2);
         }
 
-        if (health < 200)
+        if (health < 150)
         {
             LevelList.Add(0);
         }
-        else if (health >= 200 && health < 400)
+        else if (health >= 150 && health < 200)
         {
             LevelList.Add(1);
         }
-        else if (health >= 400)
+        else
         {
             LevelList.Add(2);
         }
 
-        if (stress >= 0)
+        if (stress >= 50)
         {
             LevelList.Add(0);
 
         }
-        else if (stress < 0 && stress > -100)
+        else if (stress < 50 && stress > -100)
         {
             LevelList.Add(1);
         }
-        else if (stress <= -100)
+        else if (stress <= -150)
         {
             LevelList.Add(2);
         }

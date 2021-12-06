@@ -78,5 +78,6 @@ public class ScoreManager : MonoBehaviour
         PlayerPrefs.SetInt("cs", 0);
         PlayerPrefs.SetInt("music", 0);
         PlayerPrefs.SetInt("gaming", 0);
+        PlayerPrefs.SetString("name", "Player 1");
     }
 }

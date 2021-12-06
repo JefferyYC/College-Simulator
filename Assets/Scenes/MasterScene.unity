@@ -385,7 +385,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.000030518, y: -0.0014801}
-  m_SizeDelta: {x: 800, y: 425.29}
+  m_SizeDelta: {x: 800, y: 522}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1501724806
 MonoBehaviour:
@@ -521,7 +521,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: dd3fc90842952c94f9328acf7ab76f8f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.301
+  m_Volume: 0.527
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -722,7 +722,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1149118027694285186, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -11
+      value: -27.5
       objectReference: {fileID: 0}
     - target: {fileID: 1149118027694285186, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -930,7 +930,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1149118028763734762, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 274
+      value: 308.79
       objectReference: {fileID: 0}
     - target: {fileID: 1149118028763734762, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -986,11 +986,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1149118029237840086, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -250
+      value: -292.6
       objectReference: {fileID: 0}
     - target: {fileID: 1149118029237840086, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149118029545138368, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
+      propertyPath: m_text
+      value: 'Health: 100%'
       objectReference: {fileID: 0}
     - target: {fileID: 1149118029545138368, guid: f6768f501c9d14d4aa2363da3acd6b9d, type: 3}
       propertyPath: m_margin.z
