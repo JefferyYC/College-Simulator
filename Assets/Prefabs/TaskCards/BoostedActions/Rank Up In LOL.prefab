@@ -96,7 +96,7 @@ MonoBehaviour:
   cs: 0
   music: 0
   gaming: 30
-  description: Challenge 0 LP
+  description: You grinded the game entire night and reached Bronze 0LP.
   taskImage: {fileID: 21300000, guid: 153da0a97aae56e41a7a7da56b2c0fc6, type: 3}
 --- !u!1 &4930222357977141209
 GameObject:

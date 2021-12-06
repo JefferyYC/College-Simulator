@@ -12,6 +12,10 @@ public class TransitionPanel : MonoBehaviour
     ScheduleLayout scheduleLayout;
     GameManager gmScript;
     Text description;
+    Text academic;
+    Text social;
+    Text fitness;
+    Text stress;
     Image taskImage;
     int taskPointer;
     Task curTask;
@@ -31,7 +35,13 @@ public class TransitionPanel : MonoBehaviour
             Debug.Log("It is not null");
         }
 
-        description = GetComponentInChildren<Text>();
+        //description = GetComponentInChildren<Text>();
+        academic = this.transform.Find("Academic").GetComponent<Text>();
+        social = this.transform.Find("Social").GetComponent<Text>();
+        fitness = this.transform.Find("Fitness").GetComponent<Text>();
+        stress = this.transform.Find("Stress").GetComponent<Text>();
+
+        description = this.transform.Find("Description").GetComponent<Text>();
 
         taskImage = transform.GetChild(0).GetComponent<Image>();
 
@@ -43,6 +53,11 @@ public class TransitionPanel : MonoBehaviour
 
         taskImage.sprite = curTask.taskImage;
 
+        academic.text = "Academic: " + StatToString(curTask.academic);
+        social.text = "Social: " + StatToString(curTask.social);
+        fitness.text = "Fitness: " + StatToString(curTask.health);
+        stress.text = "Stress: " + StatToString(curTask.stress);
+
     }
 
 
@@ -52,6 +67,11 @@ public class TransitionPanel : MonoBehaviour
         curTask = scheduledTasks[taskPointer].GetComponent<Task>();
         description.text = curTask.description;
         taskImage.sprite = curTask.taskImage;
+        academic.text = "Academic: " + StatToString(curTask.academic);
+        social.text = "Social: " + StatToString(curTask.social);
+        fitness.text = "Fitness: " + StatToString(curTask.health);
+        stress.text = "Stress: " + StatToString(curTask.stress);
+
     }
 
     // Update is called once per frame
@@ -71,6 +91,10 @@ public class TransitionPanel : MonoBehaviour
 
             curTask = oldtask.GetComponent<Task>();
             description.text = curTask.description;
+            academic.text = "Academic: " + StatToString(curTask.academic);
+            social.text = "Social: " + StatToString(curTask.social);
+            fitness.text = "Fitness: " + StatToString(curTask.health);
+            stress.text = "Stress: " + StatToString(curTask.stress);
             taskImage.sprite = curTask.taskImage;
             gmScript.academic += curTask.academic;
             gmScript.social += curTask.social;
@@ -96,12 +120,19 @@ public class TransitionPanel : MonoBehaviour
                 {
                     levelManager.LoadNextLevel();
                 }
+
+                GameObject actionButton = GameObject.Find("ActionButton");
+                actionButton.SetActive(false);
                 gmScript.turn += 1;
             }
             else
             {
                 Task nextTask = scheduledTasks[taskPointer].GetComponent<Task>();
                 description.text = nextTask.description;
+                academic.text = "Academic: " + StatToString(curTask.academic);
+                social.text = "Social: " + StatToString(curTask.social);
+                fitness.text = "Fitness: " + StatToString(curTask.health);
+                stress.text = "Stress: " + StatToString(curTask.stress);
                 taskImage.sprite = nextTask.taskImage;
             }
 
@@ -143,6 +174,18 @@ public class TransitionPanel : MonoBehaviour
         else if (oldTask.tag == "GamingLv1")
         {
             gmScript.gamingCount += 1;
+        }
+    }
+
+    string StatToString(int s)
+    {
+        if (s > 0)
+        {
+            return "+" + s.ToString();
+        }
+        else
+        {
+            return s.ToString();
         }
     }
 }

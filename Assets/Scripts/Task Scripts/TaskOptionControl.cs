@@ -96,7 +96,7 @@ public class TaskOptionControl : MonoBehaviour
             gmScript.musicCount = 0;
         }
 
-        if (gmScript.academic >= 200)
+        if (gmScript.academic >= 100)
         {
             if (!initialTaskDisplay.Contains("Join Research"))
             {
@@ -105,7 +105,7 @@ public class TaskOptionControl : MonoBehaviour
             }
         }
 
-        if (gmScript.academic >= 400)
+        if (gmScript.academic >= 200)
         {
             if (!initialTaskDisplay.Contains("Publish a Paper"))
             {
@@ -114,7 +114,7 @@ public class TaskOptionControl : MonoBehaviour
             }
         }
 
-        if (gmScript.social >= 200)
+        if (gmScript.social >= 100)
         {
             if (!initialTaskDisplay.Contains("Become Club Leader"))
             {
@@ -123,7 +123,7 @@ public class TaskOptionControl : MonoBehaviour
             }
         }
 
-        if (gmScript.social >= 400)
+        if (gmScript.social >= 200)
         {
             if (!initialTaskDisplay.Contains("Dating"))
             {
@@ -132,7 +132,7 @@ public class TaskOptionControl : MonoBehaviour
             }
         }
 
-        if (gmScript.health >= 200)
+        if (gmScript.health >= 100)
         {
             if (!initialTaskDisplay.Contains("Join Football Team"))
             {
@@ -141,7 +141,7 @@ public class TaskOptionControl : MonoBehaviour
             }
         }
 
-        if (gmScript.health >= 400)
+        if (gmScript.health >= 200)
         {
             if (!initialTaskDisplay.Contains("Win Big Game"))
             {
@@ -150,7 +150,7 @@ public class TaskOptionControl : MonoBehaviour
             }
         }
 
-        if (gmScript.stress >= 200)
+        if (gmScript.stress <= -100)
         {
             if (!initialTaskDisplay.Contains("Travel to Japan"))
             {
@@ -159,7 +159,7 @@ public class TaskOptionControl : MonoBehaviour
             }
         }
 
-        if (gmScript.stress >= 400)
+        if (gmScript.stress <= -200)
         {
             if (!initialTaskDisplay.Contains("Naked Run"))
             {
@@ -168,7 +168,7 @@ public class TaskOptionControl : MonoBehaviour
             }
         }
 
-        if (gmScript.cs >= 200)
+        if (gmScript.cs >= 100)
         {
             if (!initialTaskDisplay.Contains("Hackathon"))
             {
@@ -177,7 +177,7 @@ public class TaskOptionControl : MonoBehaviour
             }
         }
 
-        if (gmScript.cs >= 400)
+        if (gmScript.cs >= 200)
         {
             if (!initialTaskDisplay.Contains("SWE Internship"))
             {
@@ -186,7 +186,7 @@ public class TaskOptionControl : MonoBehaviour
             }
         }
 
-        if (gmScript.music >= 200)
+        if (gmScript.music >= 100)
         {
             if (!initialTaskDisplay.Contains("Perform at Concert"))
             {
@@ -195,7 +195,7 @@ public class TaskOptionControl : MonoBehaviour
             }
         }
 
-        if (gmScript.music >= 400)
+        if (gmScript.music >= 200)
         {
             if (!initialTaskDisplay.Contains("Release an Album"))
             {
@@ -204,7 +204,7 @@ public class TaskOptionControl : MonoBehaviour
             }
         }
 
-        if (gmScript.gaming >= 200)
+        if (gmScript.gaming >= 100)
         {
             if (!initialTaskDisplay.Contains("Top 100 Player"))  // never removed this from list, so only shows once
             {
@@ -213,7 +213,7 @@ public class TaskOptionControl : MonoBehaviour
             }
         }
 
-        if (gmScript.gaming >= 400)
+        if (gmScript.gaming >= 200)
         {
             if (!initialTaskDisplay.Contains("Collegiate Champion"))
             {

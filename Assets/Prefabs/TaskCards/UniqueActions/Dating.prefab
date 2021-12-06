@@ -177,5 +177,6 @@ MonoBehaviour:
   cs: 0
   music: 0
   gaming: 0
-  description: Start dating someoen cute.
+  description: You asked somebody out to the top of a hill and confessed your feelings.
+    Guess what? You are not single anymore. No mas.
   taskImage: {fileID: 21300000, guid: 7bd177b58d713154c9f82857cf6a2daf, type: 3}

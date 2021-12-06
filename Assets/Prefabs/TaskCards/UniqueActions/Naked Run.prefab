@@ -175,5 +175,5 @@ MonoBehaviour:
   cs: 0
   music: 0
   gaming: 0
-  description: Naked run during dead week!
+  description: Naked run during dead week! You are the lead runner.
   taskImage: {fileID: 21300000, guid: 8c755926ce6ce114c941a80b1dcbc97a, type: 3}

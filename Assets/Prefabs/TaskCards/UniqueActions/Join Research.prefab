@@ -175,5 +175,5 @@ MonoBehaviour:
   cs: 0
   music: 0
   gaming: 0
-  description: You joined the research group led by Nobel winner
+  description: You joined the research group led by a Nobel Prize winner.
   taskImage: {fileID: 21300000, guid: ab32b3b61a268a84ca66567ac069cc3f, type: 3}

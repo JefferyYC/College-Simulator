@@ -750,16 +750,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description:
   - "You got COVID-19 because you didn\u2019t take care of your health. You want
-    to cry, but you kind of now you brought this upon yourself. GG no re.  "
+    to cry, but you kind of forgot now you brought this upon yourself. GG no regrets. "
   - "You joined the football team and reached the pinnacle of body physique, A SIX
-    PACK. It\u2019s time to show off them gains and make people simp over you. "
-  - 'You did it, you managed to beat Stanford and their tree by scoring the final
+    PACK. It\u2019s time to show off those gains and make people simp over you."
+  - You did it, you managed to beat Stanford and their tree by scoring the final
     touchdown. People were so impressed at you that even the NFL noticed you and
-    now they want to sign you! Way to go pro athlete. '
+    now they want to sign you! Way to go pro athlete.
   image:
   - {fileID: 21300000, guid: 8b9a239444d1da543bfb3c739e6fcc36, type: 3}
-  - {fileID: 21300000, guid: 59e111bc73f163e47b94fc665f57e52f, type: 3}
-  - {fileID: 21300000, guid: 59e111bc73f163e47b94fc665f57e52f, type: 3}
+  - {fileID: 21300000, guid: 2ac0be0f5ee585b428789b12dd65d669, type: 3}
+  - {fileID: 21300000, guid: 4cd58778d4a78764fa067cbe16312f1d, type: 3}
 --- !u!4 &413080587
 Transform:
   m_ObjectHideFlags: 0
@@ -882,15 +882,14 @@ MonoBehaviour:
   - "Congrats! You barely graduated from college. You had some tough times (by some
     it\u2019s more like the majority), but you graduated so that\u2019s something.
     D for diploma I guess..."
-  - Congrats! You graduated with high honors. You put a lot of effort into your studies
-    and even joined a research group! You were on top of your stuff and graduated
-    with high honors!
-  - 'Congrats! You are invited to become an assistant professor. You and your IQ
-    are a menace to society and it should be illegal for you to be this smart. '
+  - Congrats! You put a lot of effort into your studies and even joined a research
+    group! You were on top of your stuff and graduated with high honors!
+  - Congrats! You are invited to become an assistant professor. You and your IQ are
+    a menace to society and it should be illegal for you to be this smart.
   image:
+  - {fileID: 21300000, guid: b0f638d73b8e3b345adfd9ad31e3f9d0, type: 3}
   - {fileID: 21300000, guid: 0d88c3e25308b4f47b4c3ca6752e4823, type: 3}
-  - {fileID: 21300000, guid: 0d88c3e25308b4f47b4c3ca6752e4823, type: 3}
-  - {fileID: 21300000, guid: 0d88c3e25308b4f47b4c3ca6752e4823, type: 3}
+  - {fileID: 21300000, guid: 7a6c604ea4cdf234e91b704afcce3368, type: 3}
 --- !u!4 &544768340
 Transform:
   m_ObjectHideFlags: 0
@@ -994,12 +993,12 @@ MonoBehaviour:
   description:
   - "You have now become part of the bald community. You were way too stressed in
     college, and your hair couldn\u2019t take it anymore, so it just fell off."
-  - 'You had some stressful moments in your college career, but most of it was generally
-    pleasant! And you traveled to Japan after graduation. '
-  - You dont give a fk anymore, and you participated in Naked Run!
+  - You had some stressful moments in your college career, but most of it was generally
+    pleasant!
+  - You dont give a fk anymore.
   image:
   - {fileID: 21300000, guid: 7a6c604ea4cdf234e91b704afcce3368, type: 3}
-  - {fileID: 21300000, guid: 32ae095f7051b4749831d3927c43a2ed, type: 3}
+  - {fileID: 21300000, guid: 836e267d14e8a71478676701d8c6480e, type: 3}
   - {fileID: 21300000, guid: 8c755926ce6ce114c941a80b1dcbc97a, type: 3}
 --- !u!4 &725276773
 Transform:
@@ -1060,7 +1059,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description:
   - You become a homeless living in the hood.
-  - You are a Background Music Producer now thanks to your medicore music skills.
+  - You are a Background Music Producer now thanks to your mediocre music skills.
   - You joined a Kpop group and become more popular than Blackpink.
   image:
   - {fileID: 21300000, guid: c72187e41180fbf47a6b6adcd3fcb341, type: 3}
@@ -1105,8 +1104,8 @@ MonoBehaviour:
     you when they see you on the street. Also, you got cuffed. Not bad, not bad at
     all :) Yes, you made love."
   image:
-  - {fileID: 21300000, guid: c72187e41180fbf47a6b6adcd3fcb341, type: 3}
-  - {fileID: 21300000, guid: 7bd177b58d713154c9f82857cf6a2daf, type: 3}
+  - {fileID: 21300000, guid: 8b9a239444d1da543bfb3c739e6fcc36, type: 3}
+  - {fileID: 21300000, guid: c5c7589e0769e4f4eaffe51f1821ab8e, type: 3}
   - {fileID: 21300000, guid: 7bd177b58d713154c9f82857cf6a2daf, type: 3}
 --- !u!4 &842893852
 Transform:
@@ -1167,8 +1166,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description:
   - You have no job, you homeless :<
-  - You become one of the Top Twitch Streamers in NA.
-  - You become a Pro Player at EDG!
+  - You become one of the Top Twitch Streamers in NA. Can I have a POGCHAMP in the
+    chat?
+  - You become a Pro Player at EDG and have a lot of fan girls.
   image:
   - {fileID: 21300000, guid: c72187e41180fbf47a6b6adcd3fcb341, type: 3}
   - {fileID: 21300000, guid: db7b176d454bbfb4bb4fb0add1fcf389, type: 3}
@@ -1218,8 +1218,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   description:
   - You become a homeless living in the hood.
-  - You become a Software Engineer at Google.
-  - You become a CTO at a Start Up.
+  - You become a Software Engineer at Google, but your goal is to build the next
+    Google. YOU ARE NOT SATISFIED!
+  - You become a CTO at a Start Up. Your work 24hrs every day. But the investors
+    are giving you hella money. For the dream.......
   image:
   - {fileID: 21300000, guid: c72187e41180fbf47a6b6adcd3fcb341, type: 3}
   - {fileID: 21300000, guid: d39946bd344dbc04383af874ae5e2d7d, type: 3}

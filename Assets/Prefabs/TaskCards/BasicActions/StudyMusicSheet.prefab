@@ -175,5 +175,5 @@ MonoBehaviour:
   cs: 0
   music: 15
   gaming: 0
-  description: Do Re Mi ~
+  description: You listened to drake for 1hr and studied his style.
   taskImage: {fileID: 21300000, guid: ae39b2b37ffd5974cb82d6634c7b0bec, type: 3}

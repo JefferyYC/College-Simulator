@@ -175,5 +175,5 @@ MonoBehaviour:
   cs: 0
   music: 0
   gaming: 60
-  description: You became the top 100 player in the game
+  description: 'You became the top 100 player in the game. Practice makes perfect. '
   taskImage: {fileID: 21300000, guid: ee62969fc3512fa4e9606e5845b5c4a9, type: 3}

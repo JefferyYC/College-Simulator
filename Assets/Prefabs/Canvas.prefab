@@ -363,6 +363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TransitionPanel: {fileID: 8014436261643587589}
+  TaskPanel: {fileID: 0}
   emptyTask: {fileID: 7203701117862888480, guid: 0908c3072adc9d043baed8c4e2f17513, type: 3}
 --- !u!1 &1149118029069621775
 GameObject:
@@ -1935,6 +1936,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1149118029069621774}
     m_Modifications:
+    - target: {fileID: 3176137229758147286, guid: 7cf916ac8f08b9b4abc3d70d654f1ee1, type: 3}
+      propertyPath: m_Size
+      value: 0.7805076
+      objectReference: {fileID: 0}
+    - target: {fileID: 3176137229758147286, guid: 7cf916ac8f08b9b4abc3d70d654f1ee1, type: 3}
+      propertyPath: m_Value
+      value: 0.9999721
+      objectReference: {fileID: 0}
     - target: {fileID: 4259316370709852242, guid: 7cf916ac8f08b9b4abc3d70d654f1ee1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2023,6 +2032,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TaskPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 4259316370709852243, guid: 7cf916ac8f08b9b4abc3d70d654f1ee1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6858688146956273664, guid: 7cf916ac8f08b9b4abc3d70d654f1ee1, type: 3}
       propertyPath: m_Constraint
       value: 1
@@ -2034,6 +2047,18 @@ PrefabInstance:
     - target: {fileID: 6858688146956273664, guid: 7cf916ac8f08b9b4abc3d70d654f1ee1, type: 3}
       propertyPath: m_ConstraintCount
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929108902739389514, guid: 7cf916ac8f08b9b4abc3d70d654f1ee1, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929108902739389514, guid: 7cf916ac8f08b9b4abc3d70d654f1ee1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8929108902739389514, guid: 7cf916ac8f08b9b4abc3d70d654f1ee1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cf916ac8f08b9b4abc3d70d654f1ee1, type: 3}

@@ -96,7 +96,8 @@ MonoBehaviour:
   cs: 0
   music: 0
   gaming: 0
-  description: Became president of consulting club
+  description: You became the president of a consulting club and started your flyer
+    business on the streets.
   taskImage: {fileID: 21300000, guid: 353dbef963fe83f408b0e134d661394e, type: 3}
 --- !u!1 &4887268114166256045
 GameObject:

@@ -12,6 +12,8 @@ public class TaskCardButton : MonoBehaviour
     [SerializeField]
     private GameObject Taskcard;
 
+    public GameObject ActButton;
+
     public void setTaskCard(GameObject taskcard)
     {
         Taskcard = taskcard;
@@ -25,12 +27,19 @@ public class TaskCardButton : MonoBehaviour
     public void SelectTask()
     {
         GameObject schedulePanel = GameObject.Find("SchedulePanel");
+        GameObject actButton = FindInActiveObjectByName("ActionButton");
         ScheduleLayout schedulelayout = schedulePanel.GetComponent<ScheduleLayout>();
+        Debug.Log(actButton);
         if (schedulelayout.taskcount <= 7)
         {
+            if (schedulelayout.taskcount == 6)
+            {
+                actButton.SetActive(true);
+            }
+
             if (schedulelayout.taskcount == 7)
             {
-            schedulelayout.taskcount = 1;
+                schedulelayout.taskcount = 1;
             }
 
             GameObject oldtask = schedulelayout.scheduledTasks[schedulelayout.taskcount - 1];
@@ -51,5 +60,21 @@ public class TaskCardButton : MonoBehaviour
     {
         SelectTask();
         Destroy(gameObject);
+    }
+
+    GameObject FindInActiveObjectByName(string name)
+    {
+        Transform[] objs = Resources.FindObjectsOfTypeAll<Transform>() as Transform[];
+        for (int i = 0; i < objs.Length; i++)
+        {
+            if (objs[i].hideFlags == HideFlags.None)
+            {
+                if (objs[i].name == name)
+                {
+                    return objs[i].gameObject;
+                }
+            }
+        }
+        return null;
     }
 }

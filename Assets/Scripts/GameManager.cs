@@ -70,15 +70,15 @@ public class GameManager : MonoBehaviour
 	{
 		//Debug.Log(turn);
 		//Debug.Log(turnText.text);
-		academicNorm = (double) academic / 250.0 * 100;
-		academicText.text = "Academic: " + academicNorm.ToString() + "%";
-		socialNorm = (double) social / 250 * 100;
+		academicNorm = (double) academic / 200.0 * 100;
+		academicText.text = "Academic: " + academicNorm.ToString("F2") + "%";
+		socialNorm = (double) social / 200.0 * 100;
 
-		socialText.text = "Social: " + socialNorm.ToString() + "%";
-		healthNorm = (double) health / 250 * 100;
-		healthText.text = "Health: " + healthNorm.ToString() + "%";
-		stressNorm = (double) stress / 250 * 100;
-		stressText.text = "Stress: " + stressNorm.ToString() + "%";
+		socialText.text = "Social: " + socialNorm.ToString("F2") + "%";
+		healthNorm = (double) health / 200.0 * 100;
+		healthText.text = "Fitness: " + healthNorm.ToString("F2") + "%";
+		stressNorm = (double) stress / 200.0 * 100;
+		stressText.text = "Stress: " + stressNorm.ToString("F2") + "%";
 		turnText.text = "Turn: " + turn.ToString();
 		semesterText.text = semesters[semesterNum];
 

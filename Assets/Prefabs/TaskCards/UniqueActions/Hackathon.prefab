@@ -96,7 +96,8 @@ MonoBehaviour:
   cs: 60
   music: 0
   gaming: 0
-  description: Paricipated in biggest Hackathon globally
+  description: Paricipated in biggest Hackathon globally and won first place by programming
+    a college simulator game.
   taskImage: {fileID: 21300000, guid: 0a9542dffefb14f40b3f439d65f04333, type: 3}
 --- !u!1 &4783270155574468015
 GameObject:

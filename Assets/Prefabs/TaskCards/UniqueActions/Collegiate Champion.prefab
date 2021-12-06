@@ -96,7 +96,7 @@ MonoBehaviour:
   cs: 0
   music: 0
   gaming: 60
-  description: You won collegiate champion
+  description: You won collegiate champion and got no scholarship.
   taskImage: {fileID: 21300000, guid: 9a603ffe3c28cab44b080d40ae7a2ca3, type: 3}
 --- !u!1 &8380103720956824654
 GameObject:

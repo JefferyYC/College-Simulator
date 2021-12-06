@@ -175,5 +175,5 @@ MonoBehaviour:
   cs: 0
   music: 60
   gaming: 0
-  description: Released hit song of the month
+  description: Released hit song of the month, better than Taylor Swift.
   taskImage: {fileID: 21300000, guid: 07513c9a44a595c4bb7cdbd73d20d7a9, type: 3}

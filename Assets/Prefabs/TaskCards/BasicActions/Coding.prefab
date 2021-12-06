@@ -96,7 +96,7 @@ MonoBehaviour:
   cs: 15
   music: 0
   gaming: 0
-  description: Debugged for 2 hours, and found out named 2 variables the same
+  description: "You dress up as a monkey and code like one too\u2026 KEKW"
   taskImage: {fileID: 21300000, guid: 2e539c6562018684380263b6e2529c95, type: 3}
 --- !u!1 &6239436030460611163
 GameObject:

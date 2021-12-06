@@ -125,7 +125,7 @@ public class life : MonoBehaviour
     {
         //
         
-        if (academic < 150)
+        if (academic < 100)
         {
             // Index respective "possible_______" array, and put the indexed component into the YourFuture array.
             // Pesudo-code
@@ -133,7 +133,7 @@ public class life : MonoBehaviour
             
 
         }
-        else if (academic >= 150 && academic < 200)
+        else if (academic >= 100 && academic < 200)
         {
             LevelList.Add(1);
             Debug.Log("HERE");
@@ -145,11 +145,11 @@ public class life : MonoBehaviour
 
         
 
-        if (social < 150)
+        if (social < 100)
         {
             LevelList.Add(0);
         }
-        else if (social >= 150 && social < 200)
+        else if (social >= 100 && social < 200)
         {
             LevelList.Add(1);
         }
@@ -158,11 +158,11 @@ public class life : MonoBehaviour
             LevelList.Add(2);
         }
 
-        if (health < 150)
+        if (health < 100)
         {
             LevelList.Add(0);
         }
-        else if (health >= 150 && health < 200)
+        else if (health >= 100 && health < 200)
         {
             LevelList.Add(1);
         }
@@ -171,16 +171,16 @@ public class life : MonoBehaviour
             LevelList.Add(2);
         }
 
-        if (stress >= 50)
+        if (stress > -100)
         {
             LevelList.Add(0);
 
         }
-        else if (stress < 50 && stress > -100)
+        else if (stress < -100 && stress > -200)
         {
             LevelList.Add(1);
         }
-        else if (stress <= -150)
+        else if (stress <= -200)
         {
             LevelList.Add(2);
         }
@@ -204,11 +204,11 @@ public class life : MonoBehaviour
             
         }
 
-        if (highest < 200)
+        if (highest < 100)
         {
             LevelList.Add(0);
         }
-        else if (highest >= 200 && highest <400)
+        else if (highest >= 100 && highest < 200)
         {
             LevelList.Add(1);
         } else
