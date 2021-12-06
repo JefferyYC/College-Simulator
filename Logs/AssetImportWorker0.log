@@ -15,11 +15,11 @@ C:/Users/Jeffery/GameDesignDecal/College Simulator
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65382
+52726
 Successfully changed project path to: C:/Users/Jeffery/GameDesignDecal/College Simulator
 C:/Users/Jeffery/GameDesignDecal/College Simulator
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 75.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 82.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,458 +35,167 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001882 seconds.
+Registered in 0.002004 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 76.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 81.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.007 seconds
+- Completed reload, in  1.031 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002290 seconds.
+Registered in 0.002254 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 79.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 76.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.943 seconds
+- Completed reload, in  0.899 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3436 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 131.7 MB.
 System memory in use after: 131.8 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3891.
-Total: 2.183500 ms (FindLiveObjects: 0.224800 ms CreateObjectMapping: 0.151300 ms MarkObjects: 1.715800 ms  DeleteObjects: 0.091000 ms)
+Total: 2.073100 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.197200 ms MarkObjects: 1.554900 ms  DeleteObjects: 0.094300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Start.unity
-  artifactKey: Guid(b77e3369e99227e4189f708bcd3943bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Start.unity using Guid(b77e3369e99227e4189f708bcd3943bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c9d7e39d1d7b74c1e256b05cab8ce0') in 0.011321 seconds 
+  path: Assets/Scenes/MasterScene.unity
+  artifactKey: Guid(a3014c581e2efc34f813a2ade59219c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MasterScene.unity using Guid(a3014c581e2efc34f813a2ade59219c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66ed0850cfe65f1a2b20240d7fba6da') in 0.014870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 93.245464 seconds.
+  path: Assets/Sprites/IMG_0186.PNG
+  artifactKey: Guid(1cc45f73bcfc66c47ac56337132cc76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/IMG_0186.PNG using Guid(1cc45f73bcfc66c47ac56337132cc76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2891421895d39de1e671fe09deb3fa19') in 0.123488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.272047 seconds.
+  path: Assets/Sprites/Finalized Icon.PNG
+  artifactKey: Guid(1cc45f73bcfc66c47ac56337132cc76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Finalized Icon.PNG using Guid(1cc45f73bcfc66c47ac56337132cc76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3be13e54b2813ff3f7be16dbd4640b2') in 0.023210 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.6 MB.
+System memory in use after: 66.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3899.
+Total: 2.241400 ms (FindLiveObjects: 0.221300 ms CreateObjectMapping: 0.162100 ms MarkObjects: 1.785100 ms  DeleteObjects: 0.072400 ms)
+
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002366 seconds.
+Registered in 0.002148 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.909 seconds
+- Completed reload, in  0.819 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.4 MB.
-System memory in use after: 130.5 MB.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.4 MB.
+System memory in use after: 136.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3895.
-Total: 2.811100 ms (FindLiveObjects: 0.255300 ms CreateObjectMapping: 0.193600 ms MarkObjects: 2.264900 ms  DeleteObjects: 0.096200 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3930.
+Total: 2.553500 ms (FindLiveObjects: 0.241900 ms CreateObjectMapping: 0.159100 ms MarkObjects: 1.996900 ms  DeleteObjects: 0.155000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002321 seconds.
+Registered in 0.002166 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.067 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.5 MB.
-System memory in use after: 130.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3899.
-Total: 2.826900 ms (FindLiveObjects: 0.273700 ms CreateObjectMapping: 0.191200 ms MarkObjects: 2.258400 ms  DeleteObjects: 0.102300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002813 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.823 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.5 MB.
-System memory in use after: 130.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3903.
-Total: 2.118800 ms (FindLiveObjects: 0.221300 ms CreateObjectMapping: 0.156300 ms MarkObjects: 1.616000 ms  DeleteObjects: 0.124500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002316 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.799 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.5 MB.
-System memory in use after: 130.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3907.
-Total: 2.263000 ms (FindLiveObjects: 0.252200 ms CreateObjectMapping: 0.220400 ms MarkObjects: 1.701900 ms  DeleteObjects: 0.087700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002636 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.794 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.5 MB.
-System memory in use after: 130.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3911.
-Total: 3.031600 ms (FindLiveObjects: 0.259300 ms CreateObjectMapping: 0.274300 ms MarkObjects: 2.411200 ms  DeleteObjects: 0.085800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002853 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.806 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.6 MB.
-System memory in use after: 130.7 MB.
+System memory in use before: 136.4 MB.
+System memory in use after: 136.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3915.
-Total: 2.526600 ms (FindLiveObjects: 0.376400 ms CreateObjectMapping: 0.205300 ms MarkObjects: 1.864800 ms  DeleteObjects: 0.079200 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3934.
+Total: 2.363600 ms (FindLiveObjects: 0.266800 ms CreateObjectMapping: 0.159100 ms MarkObjects: 1.793300 ms  DeleteObjects: 0.143600 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 1799.226105 seconds.
-  path: Assets/Sprites/Tasks/album.PNG
-  artifactKey: Guid(07513c9a44a595c4bb7cdbd73d20d7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/album.PNG using Guid(07513c9a44a595c4bb7cdbd73d20d7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d56994bf9e082de172d9b866cb5f1c') in 0.120173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Sprites/Tasks/Rank Up in LOL.PNG
-  artifactKey: Guid(153da0a97aae56e41a7a7da56b2c0fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Rank Up in LOL.PNG using Guid(153da0a97aae56e41a7a7da56b2c0fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbc5a1e876969bf4b78d1d380dcd7f2') in 0.017636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Sprites/Tasks/winbiggame.PNG
-  artifactKey: Guid(4cd58778d4a78764fa067cbe16312f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/winbiggame.PNG using Guid(4cd58778d4a78764fa067cbe16312f1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49967d81a972c403649201d24715e39a') in 0.016768 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Sprites/Tasks/Collegiate Champion.PNG
-  artifactKey: Guid(9a603ffe3c28cab44b080d40ae7a2ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Collegiate Champion.PNG using Guid(9a603ffe3c28cab44b080d40ae7a2ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8cf9605e56a839f282c9f2e7d548cc') in 0.013104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Sprites/Tasks/Make Friends.PNG
-  artifactKey: Guid(e90742e93b5dd59478e8571299bd47bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Make Friends.PNG using Guid(e90742e93b5dd59478e8571299bd47bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51eed46061d921fb2fd3e5b5a18d3a2d') in 0.013427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Sprites/Tasks/football.PNG
-  artifactKey: Guid(2ac0be0f5ee585b428789b12dd65d669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/football.PNG using Guid(2ac0be0f5ee585b428789b12dd65d669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d805f6deb6576bf803fb6714870933') in 0.012453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Sprites/Tasks/Study Music Sheet.PNG
-  artifactKey: Guid(ae39b2b37ffd5974cb82d6634c7b0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Study Music Sheet.PNG using Guid(ae39b2b37ffd5974cb82d6634c7b0bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d42845cb3067083b3cd7af07dbf9fd') in 0.013645 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Sprites/Tasks/Coding.PNG
-  artifactKey: Guid(2e539c6562018684380263b6e2529c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Coding.PNG using Guid(2e539c6562018684380263b6e2529c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9acf1f36fbce0b6972aadc306d4aa0') in 0.012850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Sprites/Tasks/topplayer.PNG
-  artifactKey: Guid(ee62969fc3512fa4e9606e5845b5c4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/topplayer.PNG using Guid(ee62969fc3512fa4e9606e5845b5c4a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f86856da3580e7820bc8f03cca16659') in 0.012696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Sprites/Tasks/google.PNG
-  artifactKey: Guid(d39946bd344dbc04383af874ae5e2d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/google.PNG using Guid(d39946bd344dbc04383af874ae5e2d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9d781651b2efc8cd881b18acbe75e8') in 0.013594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Sprites/Tasks/Party.PNG
-  artifactKey: Guid(836e267d14e8a71478676701d8c6480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Party.PNG using Guid(836e267d14e8a71478676701d8c6480e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4210fb6ac7506f94d8248e2ea634b5ec') in 0.013147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Sprites/Tasks/Leetcode Grind.PNG
-  artifactKey: Guid(384a1abb24b5f2247ab6973f148c5e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Leetcode Grind.PNG using Guid(384a1abb24b5f2247ab6973f148c5e8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c72339adf78d87142b203743560382') in 0.012597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Sprites/Tasks/Research.PNG
-  artifactKey: Guid(ab32b3b61a268a84ca66567ac069cc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Research.PNG using Guid(ab32b3b61a268a84ca66567ac069cc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e32524df8e101c28407410af220132') in 0.013952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Sprites/Tasks/Publish a Paper.PNG
-  artifactKey: Guid(7a6c604ea4cdf234e91b704afcce3368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Publish a Paper.PNG using Guid(7a6c604ea4cdf234e91b704afcce3368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987593a872f184bb51d4ede209b226c1') in 0.013492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Sprites/Tasks/Rest Day.PNG
-  artifactKey: Guid(c72187e41180fbf47a6b6adcd3fcb341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Rest Day.PNG using Guid(c72187e41180fbf47a6b6adcd3fcb341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5232264fc930c843aa2538d57ec2ff1e') in 0.013224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Sprites/Tasks/Workout.PNG
-  artifactKey: Guid(70cb19bc5073c7f468981d10eb08d335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Workout.PNG using Guid(70cb19bc5073c7f468981d10eb08d335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e298196eb6cd0ca3ee178f62fd8e5e') in 0.013295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Sprites/Tasks/concert.PNG
-  artifactKey: Guid(156058d295ca88d488265d9175681cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/concert.PNG using Guid(156058d295ca88d488265d9175681cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55702ada7db7d98b3d148fdac9615e48') in 0.014391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Sprites/Tasks/hackthon.PNG
-  artifactKey: Guid(0a9542dffefb14f40b3f439d65f04333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/hackthon.PNG using Guid(0a9542dffefb14f40b3f439d65f04333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '591a1100deaf97cc641d21ec1e8f31c4') in 0.013397 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Sprites/Tasks/Naked Run.PNG
-  artifactKey: Guid(8c755926ce6ce114c941a80b1dcbc97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Naked Run.PNG using Guid(8c755926ce6ce114c941a80b1dcbc97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f6f3dd0760fa0d3880805b4f3a2bed') in 0.012672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Sprites/Tasks/Gaming.PNG
-  artifactKey: Guid(db7b176d454bbfb4bb4fb0add1fcf389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Gaming.PNG using Guid(db7b176d454bbfb4bb4fb0add1fcf389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061fab0e11803710f405158fa573057f') in 0.012842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Sprites/Tasks/Travel To Japan.PNG
-  artifactKey: Guid(32ae095f7051b4749831d3927c43a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Travel To Japan.PNG using Guid(32ae095f7051b4749831d3927c43a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eefd182afc00f11bb3d0d6df0812c8b') in 0.014256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Sprites/Tasks/Study.PNG
-  artifactKey: Guid(b0f638d73b8e3b345adfd9ad31e3f9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Study.PNG using Guid(b0f638d73b8e3b345adfd9ad31e3f9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db74c1299c03055fbaeb9a539e59617') in 0.012259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Sprites/Tasks/Nap.PNG
-  artifactKey: Guid(8b9a239444d1da543bfb3c739e6fcc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Nap.PNG using Guid(8b9a239444d1da543bfb3c739e6fcc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05727cecb74e6da750f637dd0562375d') in 0.013831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Sprites/Tasks/Play Like Mozart.PNG
-  artifactKey: Guid(8d6d39ccd70d7d54f940ba7f79e742df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Play Like Mozart.PNG using Guid(8d6d39ccd70d7d54f940ba7f79e742df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067514a34af15871469f948fc4134c97') in 0.012319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Sprites/Tasks/Dating.PNG
-  artifactKey: Guid(7bd177b58d713154c9f82857cf6a2daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Dating.PNG using Guid(7bd177b58d713154c9f82857cf6a2daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01eca10997789a53b80984de1559264') in 0.014285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Sprites/Tasks/Intensive Study.PNG
-  artifactKey: Guid(0d88c3e25308b4f47b4c3ca6752e4823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Tasks/Intensive Study.PNG using Guid(0d88c3e25308b4f47b4c3ca6752e4823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '845d6aedaa9607634497d552ea682f61') in 0.013839 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 271.185163 seconds.
-  path: Assets/Sprites/Endings/bugatti.jpg
-  artifactKey: Guid(4c1ba7c3281bbad42b6939c62a82dd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Endings/bugatti.jpg using Guid(4c1ba7c3281bbad42b6939c62a82dd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc23f6356bfe191f98fa1796a9f8ce0') in 0.023667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Sprites/Endings/google.jpg
-  artifactKey: Guid(304623f278226ec4b95cd58148fa904d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Endings/google.jpg using Guid(304623f278226ec4b95cd58148fa904d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a00c2d661be1ad6b4371414ec12d1f') in 0.022093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Sprites/Endings/porsche.jpg
-  artifactKey: Guid(da0e3f72a98984d4bb81148a05ef71eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Endings/porsche.jpg using Guid(da0e3f72a98984d4bb81148a05ef71eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d9ea39337d1ad8b3f53c244ec5c8f7') in 0.020065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Sprites/Endings/mckinsey.jpg
-  artifactKey: Guid(55e7938e85d3df94d8e1cd2417820dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Endings/mckinsey.jpg using Guid(55e7938e85d3df94d8e1cd2417820dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b209c581ec63d9eec22001a39d6709a') in 0.018339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Sprites/Endings/homeless.jpg
-  artifactKey: Guid(6875e4f10d5bab64f88af258c3703659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Endings/homeless.jpg using Guid(6875e4f10d5bab64f88af258c3703659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49e70db0a270efc6ae59236cf65f331') in 0.019809 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Sprites/Endings/honda.jpg
-  artifactKey: Guid(82e55b78253c5da4697ecb66d14017eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Endings/honda.jpg using Guid(82e55b78253c5da4697ecb66d14017eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2176e77e7cafa4c4de1f0a7183e0d4') in 0.016425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.548053 seconds.
-  path: Assets/Scenes/Scene5.unity
-  artifactKey: Guid(9a2564cda85205e4087e8ad2f4745018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene5.unity using Guid(9a2564cda85205e4087e8ad2f4745018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1181223949d8a55ce3e6ccf6ba1bc9ab') in 0.007419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.202557 seconds.
-  path: Assets/Scenes/MasterScene.unity
-  artifactKey: Guid(a3014c581e2efc34f813a2ade59219c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MasterScene.unity using Guid(a3014c581e2efc34f813a2ade59219c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528d844375735cf297f7f06da61c7e00') in 0.007354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1176.392105 seconds.
-  path: Assets/Scripts/TransitionPanel.cs
-  artifactKey: Guid(7a45708720ee904418acd1dd1011286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TransitionPanel.cs using Guid(7a45708720ee904418acd1dd1011286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e8848afee8ad56134e9a45fa6cede3') in 0.012608 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002629 seconds.
+Registered in 0.003294 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.892 seconds
+- Completed reload, in  0.776 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3450 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.2 MB.
-System memory in use after: 205.4 MB.
+Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.5 MB.
+System memory in use after: 136.6 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4413.
-Total: 2.542300 ms (FindLiveObjects: 0.272600 ms CreateObjectMapping: 0.188300 ms MarkObjects: 1.936000 ms  DeleteObjects: 0.144700 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3938.
+Total: 2.753600 ms (FindLiveObjects: 0.256600 ms CreateObjectMapping: 0.174600 ms MarkObjects: 2.227700 ms  DeleteObjects: 0.094000 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 107.353473 seconds.
-  path: Assets/Scripts/TransitionPanel.cs
-  artifactKey: Guid(7a45708720ee904418acd1dd1011286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TransitionPanel.cs using Guid(7a45708720ee904418acd1dd1011286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee9758cadd84d261ec0b77181283f27') in 0.005993 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002345 seconds.
+Registered in 0.002980 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.796 seconds
+- Completed reload, in  0.765 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.9 MB.
-System memory in use after: 204.0 MB.
+System memory in use before: 136.5 MB.
+System memory in use after: 136.6 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4417.
-Total: 2.248600 ms (FindLiveObjects: 0.263600 ms CreateObjectMapping: 0.152300 ms MarkObjects: 1.750600 ms  DeleteObjects: 0.081400 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3942.
+Total: 2.112300 ms (FindLiveObjects: 0.229600 ms CreateObjectMapping: 0.143000 ms MarkObjects: 1.662900 ms  DeleteObjects: 0.075900 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 73.574323 seconds.
-  path: Assets/Scripts/Task Scripts/TaskOptionControl.cs
-  artifactKey: Guid(fd235b004a1355f4c975496a8667f3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Task Scripts/TaskOptionControl.cs using Guid(fd235b004a1355f4c975496a8667f3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5911abe0cd95aa1befcde5084387c3') in 0.009827 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002342 seconds.
+Registered in 0.003053 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -495,376 +204,21 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.826 seconds
+- Completed reload, in  0.777 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.9 MB.
-System memory in use after: 204.0 MB.
+System memory in use before: 136.5 MB.
+System memory in use after: 136.6 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4421.
-Total: 2.323300 ms (FindLiveObjects: 0.307700 ms CreateObjectMapping: 0.202600 ms MarkObjects: 1.727500 ms  DeleteObjects: 0.084500 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3946.
+Total: 2.275400 ms (FindLiveObjects: 0.235500 ms CreateObjectMapping: 0.159200 ms MarkObjects: 1.799300 ms  DeleteObjects: 0.080700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 60.403455 seconds.
-  path: Assets/Scripts/Task Scripts/TaskOptionControl.cs
-  artifactKey: Guid(fd235b004a1355f4c975496a8667f3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Task Scripts/TaskOptionControl.cs using Guid(fd235b004a1355f4c975496a8667f3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830d6e88df3590fb9455f5f1dc5caee2') in 0.004934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 56.374874 seconds.
-  path: Assets/Prefabs/Canvas.prefab
-  artifactKey: Guid(f6768f501c9d14d4aa2363da3acd6b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Canvas.prefab using Guid(f6768f501c9d14d4aa2363da3acd6b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801cc6a9d48d10689051fe422d2bda05') in 0.095846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Prefabs/TransitionPanel.prefab
-  artifactKey: Guid(06a57aa21e5e65744b8c6ca4be2c081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TransitionPanel.prefab using Guid(06a57aa21e5e65744b8c6ca4be2c081d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ee0802cb425e1c0d8b562a8d0824ae') in 0.005289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
+  Time since last request: 1115.264866 seconds.
   path: Assets/Prefabs/GameManager.prefab
   artifactKey: Guid(4944aa1e959015c4b9a1a04d3b9f5424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/GameManager.prefab using Guid(4944aa1e959015c4b9a1a04d3b9f5424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ef56110c0e8005dba79368f97504dd') in 0.041814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Prefabs/LevelLoader.prefab
-  artifactKey: Guid(76e8c92bf7e5c34489eddb7caadaacdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelLoader.prefab using Guid(76e8c92bf7e5c34489eddb7caadaacdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a54709c8afd0d8598f0214f081c5191') in 0.007392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.090114 seconds.
-  path: Assets/Prefabs/TaskCards/BoostedTaskTemplate.prefab
-  artifactKey: Guid(c958388361cf66244979901cf972a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/BoostedTaskTemplate.prefab using Guid(c958388361cf66244979901cf972a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4db8094e31cd54c390200864170aac') in 0.008811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Prefabs/TaskCards/TaskButtonTemplate.prefab
-  artifactKey: Guid(86be3d5979b293749b70d4d21fffb249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/TaskButtonTemplate.prefab using Guid(86be3d5979b293749b70d4d21fffb249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9349f295f319524dda8c12c53290ec0f') in 0.008941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/Prefabs/TaskCards/UniqueTaskTemplate.prefab
-  artifactKey: Guid(44598460c20c49948851e04ef794e5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/UniqueTaskTemplate.prefab using Guid(44598460c20c49948851e04ef794e5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2c588ae993e2e84721c78a1b122326') in 0.010545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.002014 seconds.
-  path: Assets/Prefabs/TaskCards/BasicActions/Coding.prefab
-  artifactKey: Guid(70f0034135a48bc4fbde7daead5c4010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/BasicActions/Coding.prefab using Guid(70f0034135a48bc4fbde7daead5c4010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7289821cb0d23846f9ab64deb5c065dd') in 0.007072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Prefabs/TaskCards/BasicActions/Workout.prefab
-  artifactKey: Guid(a5dbd608c1b4f2448a01da49a4dc92e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/BasicActions/Workout.prefab using Guid(a5dbd608c1b4f2448a01da49a4dc92e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c757cb51f784895f69f5b5b85509ee') in 0.005029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Prefabs/TaskCards/BasicActions/StudyMusicSheet.prefab
-  artifactKey: Guid(1768fb87ff33d8145a8d0ff5dca0b629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/BasicActions/StudyMusicSheet.prefab using Guid(1768fb87ff33d8145a8d0ff5dca0b629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f52791c9c2d4d9d7999d983e42322d') in 0.008673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Prefabs/TaskCards/BasicActions/Study.prefab
-  artifactKey: Guid(28c5199ffaf728b4da8e14b895ce9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/BasicActions/Study.prefab using Guid(28c5199ffaf728b4da8e14b895ce9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726539846caf49db4c90506afff501a7') in 0.004517 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Prefabs/TaskCards/BasicActions/Nap.prefab
-  artifactKey: Guid(5dc7dd0572d4d83499af7f7e9dddf56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/BasicActions/Nap.prefab using Guid(5dc7dd0572d4d83499af7f7e9dddf56b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607463c35490f1c057e68dd8ed0f8c85') in 0.004801 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002592 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.785 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 204.1 MB.
-System memory in use after: 204.2 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 4427.
-Total: 2.236400 ms (FindLiveObjects: 0.268700 ms CreateObjectMapping: 0.154300 ms MarkObjects: 1.733300 ms  DeleteObjects: 0.079500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.800601 seconds.
-  path: Assets/Prefabs/TaskCards/BasicActions/Study.prefab
-  artifactKey: Guid(28c5199ffaf728b4da8e14b895ce9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/BasicActions/Study.prefab using Guid(28c5199ffaf728b4da8e14b895ce9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f99782e5026b2a7ad933184311c0e8c') in 0.028570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.318028 seconds.
-  path: Assets/Prefabs/TaskCards/BasicActions/Study.prefab
-  artifactKey: Guid(28c5199ffaf728b4da8e14b895ce9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/BasicActions/Study.prefab using Guid(28c5199ffaf728b4da8e14b895ce9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e791c0adb64542062da08fc3f3010fa') in 0.006594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.888164 seconds.
-  path: Assets/Prefabs/TaskCards/BasicActions/Coding.prefab
-  artifactKey: Guid(70f0034135a48bc4fbde7daead5c4010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/BasicActions/Coding.prefab using Guid(70f0034135a48bc4fbde7daead5c4010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e90a63d86464a572c6683f6836518cf') in 0.004710 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.494303 seconds.
-  path: Assets/Prefabs/TaskCards/BasicActions/Coding.prefab
-  artifactKey: Guid(70f0034135a48bc4fbde7daead5c4010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/BasicActions/Coding.prefab using Guid(70f0034135a48bc4fbde7daead5c4010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118f61e4b67a08369328cee47edf87f0') in 0.004864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.188152 seconds.
-  path: Assets/Prefabs/TaskCards/BasicActions/Study.prefab
-  artifactKey: Guid(28c5199ffaf728b4da8e14b895ce9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/BasicActions/Study.prefab using Guid(28c5199ffaf728b4da8e14b895ce9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d452f44df53c6a03ea413c1c93cafec') in 0.004249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.627296 seconds.
-  path: Assets/Prefabs/TaskCards/BasicActions/Study.prefab
-  artifactKey: Guid(28c5199ffaf728b4da8e14b895ce9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/BasicActions/Study.prefab using Guid(28c5199ffaf728b4da8e14b895ce9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade8ae23a0f6f38545a2dcaa2cebcf42') in 0.003912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.130990 seconds.
-  path: Assets/Prefabs/TaskCards/BasicActions/Study.prefab
-  artifactKey: Guid(28c5199ffaf728b4da8e14b895ce9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/BasicActions/Study.prefab using Guid(28c5199ffaf728b4da8e14b895ce9afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a08fd6588f8ce3ccb8b11b0eca432cd') in 0.004433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.907328 seconds.
-  path: Assets/Prefabs/TaskCards/BasicActions/Coding.prefab
-  artifactKey: Guid(70f0034135a48bc4fbde7daead5c4010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/BasicActions/Coding.prefab using Guid(70f0034135a48bc4fbde7daead5c4010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bee002f0f6e5f71482544466d20ae75') in 0.004383 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002477 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.858 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 204.2 MB.
-System memory in use after: 204.3 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4431.
-Total: 2.520600 ms (FindLiveObjects: 0.325600 ms CreateObjectMapping: 0.328700 ms MarkObjects: 1.784500 ms  DeleteObjects: 0.081100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 289.874249 seconds.
-  path: Assets/Prefabs/TaskCards/UniqueActions/Become Club Leader.prefab
-  artifactKey: Guid(f4e54f05b10e7fb40ab19524e93510f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/UniqueActions/Become Club Leader.prefab using Guid(f4e54f05b10e7fb40ab19524e93510f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a995267cd79ab2fa8cc7a1611617643') in 0.032255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Prefabs/TaskCards/UniqueActions/Perform at Concert.prefab
-  artifactKey: Guid(16d2ef34ce8efde4f8335e420ee9dabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/UniqueActions/Perform at Concert.prefab using Guid(16d2ef34ce8efde4f8335e420ee9dabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1e18a8c113b1c0efa8afafec9b010d') in 0.007316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Prefabs/TaskCards/UniqueActions/Dating.prefab
-  artifactKey: Guid(d4326caa68c5b3c4a92eaf3c2593b1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/UniqueActions/Dating.prefab using Guid(d4326caa68c5b3c4a92eaf3c2593b1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a4e3cb212f2cd4e5abea348fa62e6c') in 0.004602 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Prefabs/TaskCards/UniqueActions/Naked Run.prefab
-  artifactKey: Guid(fb29a827486cc3042b2db856d8522e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/UniqueActions/Naked Run.prefab using Guid(fb29a827486cc3042b2db856d8522e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fe4c827779a00e8e16b47afc31bf62') in 0.006800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Prefabs/TaskCards/UniqueActions/Publish a Paper.prefab
-  artifactKey: Guid(f3fa2560d3382114290bca9478b01a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/UniqueActions/Publish a Paper.prefab using Guid(f3fa2560d3382114290bca9478b01a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14ed22f776af8da3ef92e24b60e31c3') in 0.005175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Prefabs/TaskCards/UniqueActions/Travel to Japan.prefab
-  artifactKey: Guid(77d535ba504debf4d969e510b41a98e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/UniqueActions/Travel to Japan.prefab using Guid(77d535ba504debf4d969e510b41a98e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd001154cbc2f65fe524b40d4cd3430d1') in 0.008276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Prefabs/TaskCards/UniqueActions/SWE Internship.prefab
-  artifactKey: Guid(a0eb1c7a65e0889468c79fa1811004ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/UniqueActions/SWE Internship.prefab using Guid(a0eb1c7a65e0889468c79fa1811004ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4255edd446699acd40c260c4de76e6d') in 0.008024 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Prefabs/TaskCards/UniqueActions/Win Big Game.prefab
-  artifactKey: Guid(535f7007e09552144abebec3d404f660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/UniqueActions/Win Big Game.prefab using Guid(535f7007e09552144abebec3d404f660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26233af28820f47f3c6ce77a695b43f8') in 0.007814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Prefabs/TaskCards/UniqueActions/Hackathon.prefab
-  artifactKey: Guid(e3ae94121aaee6d47b65982c554e5321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/UniqueActions/Hackathon.prefab using Guid(e3ae94121aaee6d47b65982c554e5321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beed84e417df1962dfb5c01f7d97439d') in 0.007698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Prefabs/TaskCards/UniqueActions/Top 100 Player.prefab
-  artifactKey: Guid(3fb2afd5100def547a9a8408c6a7afa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/UniqueActions/Top 100 Player.prefab using Guid(3fb2afd5100def547a9a8408c6a7afa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c34e8cbce752769c610c3604a23716b') in 0.007687 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Prefabs/TaskCards/UniqueActions/Join Research.prefab
-  artifactKey: Guid(aed2944cc90a1214f885ab7f1255f41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/UniqueActions/Join Research.prefab using Guid(aed2944cc90a1214f885ab7f1255f41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252c4060b49bf4c44eaac2ea64a5242a') in 0.007661 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Prefabs/TaskCards/UniqueActions/Collegiate Champion.prefab
-  artifactKey: Guid(7321feac2ba436a49950c150d509b079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/UniqueActions/Collegiate Champion.prefab using Guid(7321feac2ba436a49950c150d509b079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7868e3438c8057e96fcf683d6f65aa6c') in 0.004363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Prefabs/TaskCards/UniqueActions/Release an Album.prefab
-  artifactKey: Guid(6b5e324220b818045b3d6b8dc5a70458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/UniqueActions/Release an Album.prefab using Guid(6b5e324220b818045b3d6b8dc5a70458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e3e38d86701774817c5da795a5a05f') in 0.008582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Prefabs/TaskCards/UniqueActions/Join Football Team.prefab
-  artifactKey: Guid(e071a22f55159b74abacd017be8eb1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/TaskCards/UniqueActions/Join Football Team.prefab using Guid(e071a22f55159b74abacd017be8eb1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1b53a7a4a8002a8b52e83266f1e3d2') in 0.008495 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002243 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.840 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 204.2 MB.
-System memory in use after: 204.3 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4435.
-Total: 2.500600 ms (FindLiveObjects: 0.315400 ms CreateObjectMapping: 0.186000 ms MarkObjects: 1.914000 ms  DeleteObjects: 0.084700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.288728 seconds.
-  path: Assets/Audio/BrightGamePlay.mp3
-  artifactKey: Guid(dd3fc90842952c94f9328acf7ab76f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/BrightGamePlay.mp3 using Guid(dd3fc90842952c94f9328acf7ab76f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f8104674c94f18bae43f1011bb0792') in 0.049177 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Audio/ending.mp3
-  artifactKey: Guid(ba1301e1c8b175f419b39019c30336a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/ending.mp3 using Guid(ba1301e1c8b175f419b39019c30336a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34d149083a660bced64f3620611f8ee7') in 0.009387 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Audio/DarkGamePlay.mp3
-  artifactKey: Guid(0bc5a73def4ccf9498ce04cd81300254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/DarkGamePlay.mp3 using Guid(0bc5a73def4ccf9498ce04cd81300254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b658138c1ee3f4988ce1bc1ee86ae960') in 0.015004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Audio/Menu.mp3
-  artifactKey: Guid(eb2a1973c55e5354590b7cfe9b40839f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audio/Menu.mp3 using Guid(eb2a1973c55e5354590b7cfe9b40839f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805f5ffbd8424e1d9e2fdde52d9eb131') in 0.017428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.547275 seconds.
-  path: Assets/life.cs
-  artifactKey: Guid(4b7fa80ef64f28b49954710ea87736e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/life.cs using Guid(4b7fa80ef64f28b49954710ea87736e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f5f5f3b372e801e75044bafba0b402') in 0.008476 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002381 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.810 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 204.2 MB.
-System memory in use after: 204.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4445.
-Total: 2.771200 ms (FindLiveObjects: 0.408800 ms CreateObjectMapping: 0.230900 ms MarkObjects: 2.037000 ms  DeleteObjects: 0.093300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 98.594241 seconds.
-  path: Assets/life.cs
-  artifactKey: Guid(4b7fa80ef64f28b49954710ea87736e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/life.cs using Guid(4b7fa80ef64f28b49954710ea87736e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ef2a2b7382dd092a73cda84254ed2f') in 0.005302 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002550 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Jeffery\GameDesignDecal\College Simulator\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.798 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3418 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 204.3 MB.
-System memory in use after: 204.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4449.
-Total: 2.294600 ms (FindLiveObjects: 0.289700 ms CreateObjectMapping: 0.168200 ms MarkObjects: 1.753300 ms  DeleteObjects: 0.082600 ms)
-
+Start importing Assets/Prefabs/GameManager.prefab using Guid(4944aa1e959015c4b9a1a04d3b9f5424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d22ee5bbdfbe8e220ffc55e4009fac3') in 0.093228 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
