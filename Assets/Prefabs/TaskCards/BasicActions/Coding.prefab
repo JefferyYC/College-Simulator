@@ -90,8 +90,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   academic: 5
-  social: -10
-  health: -10
+  social: -5
+  health: -3
   stress: 10
   cs: 15
   music: 0

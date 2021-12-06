@@ -133,7 +133,7 @@ public class life : MonoBehaviour
             
 
         }
-        else if (academic >= 100 && academic < 200)
+        else if (academic >= 100 && academic < 175)
         {
             LevelList.Add(1);
             Debug.Log("HERE");
@@ -149,7 +149,7 @@ public class life : MonoBehaviour
         {
             LevelList.Add(0);
         }
-        else if (social >= 100 && social < 200)
+        else if (social >= 100 && social < 175)
         {
             LevelList.Add(1);
         }
@@ -162,7 +162,7 @@ public class life : MonoBehaviour
         {
             LevelList.Add(0);
         }
-        else if (health >= 100 && health < 200)
+        else if (health >= 100 && health < 175)
         {
             LevelList.Add(1);
         }
@@ -176,7 +176,7 @@ public class life : MonoBehaviour
             LevelList.Add(0);
 
         }
-        else if (stress < -100 && stress > -200)
+        else if (stress < -100 && stress > -175)
         {
             LevelList.Add(1);
         }

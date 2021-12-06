@@ -47,49 +47,49 @@ public class TaskOptionControl : MonoBehaviour
     void UpdateTask()
     {
         // If performed base action over 5 times, add boost action in the next turn and reset count
-        if (gmScript.studyCount >= 5)
+        if (gmScript.studyCount >= 3)
         {
             StartCoroutine(NotifyUnlockBoost("Intensive Study"));
             AddBoostedTask("Intensive Study", "StudyLv2");
             gmScript.studyCount = 0;
         }
 
-        if (gmScript.socialCount >= 5)
+        if (gmScript.socialCount >= 3)
         {
             StartCoroutine(NotifyUnlockBoost("Party"));
             AddBoostedTask("Party", "PartyLv2");
             gmScript.socialCount = 0;
         }
 
-        if (gmScript.workoutCount >= 5)
+        if (gmScript.workoutCount >= 3)
         {
             StartCoroutine(NotifyUnlockBoost("Breaking PRs"));
             AddBoostedTask("Breaking PRs", "WorkoutLv2");
             gmScript.workoutCount = 0;
         }
 
-        if (gmScript.napCount >= 5)
+        if (gmScript.napCount >= 3)
         {
             StartCoroutine(NotifyUnlockBoost("Rest Day"));
             AddBoostedTask("Rest Day", "RestLv2");
             gmScript.napCount = 0;
         }
 
-        if (gmScript.csCount >= 5)
+        if (gmScript.csCount >= 3)
         {
             StartCoroutine(NotifyUnlockBoost("Leetcode Grind"));
             AddBoostedTask("Leetcode Grind", "CodingLv2");
             gmScript.csCount = 0;
         }
 
-        if (gmScript.gamingCount >= 5)
+        if (gmScript.gamingCount >= 3)
         {
             StartCoroutine(NotifyUnlockBoost("Rank Up In LOL"));
             AddBoostedTask("Rank Up In LOL", "GamingLv2");
             gmScript.gamingCount -= 5;
         }
 
-        if (gmScript.musicCount >= 5)
+        if (gmScript.musicCount >= 3)
         {
             StartCoroutine(NotifyUnlockBoost("Play Like Mozart"));
             AddBoostedTask("Play Like Mozart", "MusicLv2");
@@ -105,7 +105,7 @@ public class TaskOptionControl : MonoBehaviour
             }
         }
 
-        if (gmScript.academic >= 200)
+        if (gmScript.academic >= 175)
         {
             if (!initialTaskDisplay.Contains("Publish a Paper"))
             {
@@ -123,7 +123,7 @@ public class TaskOptionControl : MonoBehaviour
             }
         }
 
-        if (gmScript.social >= 200)
+        if (gmScript.social >= 175)
         {
             if (!initialTaskDisplay.Contains("Dating"))
             {
@@ -141,7 +141,7 @@ public class TaskOptionControl : MonoBehaviour
             }
         }
 
-        if (gmScript.health >= 200)
+        if (gmScript.health >= 175)
         {
             if (!initialTaskDisplay.Contains("Win Big Game"))
             {
@@ -159,7 +159,7 @@ public class TaskOptionControl : MonoBehaviour
             }
         }
 
-        if (gmScript.stress <= -200)
+        if (gmScript.stress <= -175)
         {
             if (!initialTaskDisplay.Contains("Naked Run"))
             {

@@ -129,10 +129,10 @@ public class TransitionPanel : MonoBehaviour
             {
                 Task nextTask = scheduledTasks[taskPointer].GetComponent<Task>();
                 description.text = nextTask.description;
-                academic.text = "Academic: " + StatToString(curTask.academic);
-                social.text = "Social: " + StatToString(curTask.social);
-                fitness.text = "Fitness: " + StatToString(curTask.health);
-                stress.text = "Stress: " + StatToString(curTask.stress);
+                academic.text = "Academic: " + StatToString(nextTask.academic);
+                social.text = "Social: " + StatToString(nextTask.social);
+                fitness.text = "Fitness: " + StatToString(nextTask.health);
+                stress.text = "Stress: " + StatToString(nextTask.stress);
                 taskImage.sprite = nextTask.taskImage;
             }
 
