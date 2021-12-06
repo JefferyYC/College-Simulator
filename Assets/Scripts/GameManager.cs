@@ -7,15 +7,18 @@ using TMPro;
 public class GameManager : MonoBehaviour
 {
 	public static GameManager gameManager;
-	public int academic;
+
+    #region Private Score Variables
+    public int academic;
 	public int social;
 	public int health;
 	public int stress;
 	public int cs;
 	public int music;
 	public int gaming;
+    #endregion
 
-	public int studyCount;
+    public int studyCount;
 	public int socialCount;
 	public int workoutCount;
 	public int napCount;
@@ -58,6 +61,7 @@ public class GameManager : MonoBehaviour
 		UpdateUI();
 	}
 
+
 	void UpdateUI()
 	{
 		//Debug.Log(turn);
@@ -67,7 +71,16 @@ public class GameManager : MonoBehaviour
 		healthText.text = "Health: " + health.ToString();
 		stressText.text = "Stress: " + stress.ToString();
 		turnText.text = "Turn: " + turn.ToString();
-		semesterText.text = "Year: " + semesters[semesterNum];
+		semesterText.text = semesters[semesterNum];
+
+		//use PlayerPrefs for data persistency to store data across game sessions
+		PlayerPrefs.SetInt("academic", academic);
+		PlayerPrefs.SetInt("social", social);
+		PlayerPrefs.SetInt("health", health);
+		PlayerPrefs.SetInt("stress", stress);
+		PlayerPrefs.SetInt("cs", cs);
+		PlayerPrefs.SetInt("music", music);
+		PlayerPrefs.SetInt("gaming", gaming);
 	}
 
 	// Update is called once per frame

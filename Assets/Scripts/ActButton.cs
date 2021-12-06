@@ -6,10 +6,13 @@ public class ActButton : MonoBehaviour
 {
     public GameObject TransitionPanel;
 
+    public GameObject TaskPanel;
+
     public GameObject emptyTask;
 
     public void OpenPanel()
     {
+        TaskPanel.SetActive(false);
         if (TransitionPanel != null)
         {
             TransitionPanel.SetActive(true);
